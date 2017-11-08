@@ -15,33 +15,17 @@ $ git clone https://github.com/kupl/ParaDySE.git
 $ cd ParaDySE/cil
 $ ./configure
 $ make
-$ cd ParaDySE/src
+$ cd ../src
 $ make
 ```
-	
-## Run ParaDySE. 
-ParaDySE is run on an instrumented progam as:
-```sh
-$ bin/run_crest PROGRAM INTIAL_INPUT LOG NUM_ITERATIONS -STRATEGY
-```
--	PROGRAM : a subject program under test. 
--	INITIAL\_INPUT : an initial input. 
--	LOG : a file which stores the result of testing.
--	NUM\_ITERATIONS : the number of executions of the program.
--	STRATEGY : dfs, cfg, random and so on.
 
-In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as input 
-which is a 40-dimensional vector of real numbers.
-
-## Run benchmarks. 
-We explain how to compile each benchmark and run ParaDySE in each directory.
+## Run a benchmark.
+Please read README\_ParaDySE in each benchmark, explaining how to compile 
+each benchmark and run ParaDySE in each directory.
+For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
-$ cd ParaDySE/benchmarks
-# read README_ParaDySE in each program directory.
-```
-For instance, we explain how to compile grep-2.2 and run ParaDySE as follows:
-```sh
-$ cd ParaDySE/benchmarks/grep-2.2 # vi REAEME_ParaDySE
+$ cd ParaDySE/benchmarks/grep-2.2 
+$ vi REAEME_ParaDySE
 # compile grep 2.2 for use with ParaDySE 
 $ ./configure
 $ cd src
@@ -49,6 +33,14 @@ $ make
 # run ParaDySE
 $ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
+-	PROGRAM ('./grep aaaaaaaaaa /dev/null') : a subject program under test. 
+-	INITIAL\_INPUT (grep.input) : an initial input. 
+-	LOG (log) : a file which stores the result of testing.
+-	NUM\_ITERATIONS (4000): the number of executions of the program.
+-	STRATEGY (param): dfs, cfg, random and so on.
+
+In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as input 
+which is a 40-dimensional vector of real numbers.
 
 ## Run a script.
 The script for automatically generating a search heuristic is run on an instrumented program as:
