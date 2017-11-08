@@ -1,0 +1,6 @@
+{
+	"pgm_name": "sed-1.17",
+	"pgm_dir": "../benchmarks/sed-1.17/",
+	"exec_dir": "./",
+	"exec_cmd": "'./sed -ftags text_inputs/*'"
+}

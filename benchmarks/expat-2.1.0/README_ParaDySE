@@ -1,0 +1,11 @@
+To compile expat-2.1.0 for use with ParaDySE:
+	(1) cd lib
+	(2) ./CREST_BATCH.sh 
+
+To run ParaDySE:
+	(1) cd lib
+	(2) ../../../bin/run_crest './a.out_comb example2.xml 4430' expat.input log 4000 -param expat.w
+
+To clean
+	(1) cd lib
+	(2) ./clean.sh 

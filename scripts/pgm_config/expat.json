@@ -1,0 +1,6 @@
+{
+	"pgm_name": "expat-2.1.0",
+	"pgm_dir": "../benchmarks/expat-2.1.0/",
+	"exec_dir": "./lib",
+	"exec_cmd": "'./a.out_comb example2.xml 4430'"
+}

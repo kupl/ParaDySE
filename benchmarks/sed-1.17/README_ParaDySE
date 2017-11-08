@@ -1,0 +1,8 @@
+To compile sed-1.17 for use with ParaDySE:
+	(1) make
+
+To run ParaDySE:
+	(1) ../../bin/run_crest './sed -ftags text_inputs/*' sed.input log 4000 -param sed.w 
+
+To clean
+	(1) make clean 

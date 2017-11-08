@@ -1,0 +1,18 @@
+This directory contains the actual sed input scripts for use in 
+	the test suite.
+
+Each scipt is named in this fashion: 
+
+s[Num1]_[Num2].sed where Num1 is the test frame and Num2 is 
+either the version number OR the sequence number (for test 
+cases which use multiple script inputs). 
+
+The smoke directory contains tests from the original
+testsuite(s) that accompanied the different versions
+of GNU sed.  Smoketests were obtained from sed-4.1.5 (v7)
+
+* It should be noted that many of the scripts in this directory
+* are modified versions of example scripts in the book
+* sed & awk 2nd edition by Dale Dougherty and Arnold Robbins
+* published by O'Reilly in 1997.
+

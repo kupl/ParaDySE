@@ -1,0 +1,10 @@
+To compile floppy for use with ParaDySE:
+	(1) ../../../bin/crestc floppy.c
+
+
+To run ParaDySE:
+	(1) ../../../bin/run_crest ./floppy floppy.input log 4000 -param floppy.w
+
+
+To clean
+	(1) ./clean.sh 

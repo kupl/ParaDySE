@@ -1,0 +1,1 @@
+s/dog/DOG/g

@@ -1,0 +1,10 @@
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_00
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_01
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_02
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_03
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_04
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_05
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_06
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_07
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_08
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -cfg >& output_cfg_09

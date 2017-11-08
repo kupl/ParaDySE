@@ -1,0 +1,31 @@
+This directory contains the actual inputs to the sed program:
+
+default.in:	the common input file for sed to perform
+		manipulations on
+
+default2.in:	a second, simple input file for a single
+		test frame
+
+stdin.in	a file that flows through the -I[] mts
+	        interface
+
+binary.exe:	an executable file for an error test frame
+
+biglines.in:	a file with lines too large for sed to 
+		handle
+
+inplace.in	a file identical in content to default.in
+		but is used by v5+ sed for inplace edits
+
+scr:		a directory containing the numbered *.sed
+		files, each of which corresponds to a test
+		frame in the v*_*.frame file
+
+*.inp		input files for the various smoke tests 
+		provided by the original authors of the
+		sed unix utility
+
+* It should be noted that many of the scripts in the scr directory
+* are modified versions of example scripts in the book
+* sed & awk 2nd edition by Dale Dougherty and Arnold Robbins
+* published by O'Reilly in 1997.

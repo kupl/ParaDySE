@@ -1,0 +1,14 @@
+To compile Vim 5.7 for use with ParaDySE:
+	(1) ./configure --disable-gui --disable-gpm --without-x
+	(2) cd src
+	(3) make crest
+
+To run ParaDySE:
+	(1) cd src
+	(2) screen (* if you don't install screen, install as follows: sudo apt-get install screen *)
+	(3) ../../../bin/run_crest './vim -m -n -Z -i NONE -u NONE' vim.input log 4000 -param vim.w
+
+To clean
+	(1) cd src
+	(2) make clean
+

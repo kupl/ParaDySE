@@ -1,0 +1,10 @@
+To compile cdaudio for use with ParaDySE:
+	(1) ../../../bin/crestc cdaudio.c
+
+
+To run ParaDySE:
+	(1) ../../../bin/run_crest ./cdaudio cdaudio.input log 4000 -param cdaudio.w
+
+
+To clean
+	(1) ./clean.sh 

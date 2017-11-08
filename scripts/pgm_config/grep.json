@@ -1,0 +1,6 @@
+{
+	"pgm_name": "grep-2.2",
+	"pgm_dir": "../benchmarks/grep-2.2/",
+	"exec_dir": "./src",
+	"exec_cmd": "'./grep aaaaaaaaaa /dev/null'"
+}

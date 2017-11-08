@@ -1,0 +1,9 @@
+To compile gawk-3.0.3 for use with ParaDySE:
+	(1) ./configure 
+	(2) make 
+
+To run ParaDySE:
+	(1) ../../bin/run_crest './gawk aaaaaaaaaa text_inputs/*' gawk.input log 4000 -param gawk.w
+
+To clean
+	(1) make clean 

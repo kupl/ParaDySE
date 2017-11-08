@@ -1,0 +1,13 @@
+To compile grep 2.2 for use with ParaDySE:
+	(1) ./configure
+	(2) cd src
+	(3) make 
+
+To run ParaDySE:
+	(1) cd src
+	(2) ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
+
+To clean
+	(1) cd src
+	(2) make clean
+

@@ -1,0 +1,31 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export prefix = $(CURDIR)/debian/tree/usr
+export MANDIR = $(prefix)/share/man/man1
+# Leave LDFLAGS empty so symbol table and relocation information won't be
+# removed from the executable; dh_strip takes care of this when needed
+export LDFLAGS =
+export CFLAGS = -g -Wall -DLINUX -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64
+ifneq (,$(findstring noopt, $(DEB_BUILD_OPTIONS)))
+	CFLAGS += -O0
+else
+	CFLAGS += -O2
+endif
+
+override_dh_auto_build:
+	$(MAKE) CFLAGS="$(CFLAGS)" LDFLAGS="$(LDFLAGS)"
+
+override_dh_auto_install:
+	$(MAKE) install prefix="$(prefix)" MANDIR="$(MANDIR)"
+
+%:
+	dh $@ 

@@ -1,0 +1,5 @@
+(define x1::int)
+(assert (>= x1 -128))
+(assert (<= x1 127))
+(assert (= (+ 0 (* x1 1)) 0))
+(check)

@@ -1,0 +1,6 @@
+{
+	"pgm_name": "gawk-3.0.3",
+	"pgm_dir": "../benchmarks/gawk-3.0.3/",
+	"exec_dir": "./",
+	"exec_cmd": "'./gawk aaaaaaaaaa text_inputs/*'"
+}

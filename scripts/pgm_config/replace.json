@@ -1,0 +1,6 @@
+{
+	"pgm_name": "replace",
+	"pgm_dir": "../benchmarks/small_benchmarks/replace/",
+	"exec_dir": "./",
+	"exec_cmd": "'./replace'"
+}

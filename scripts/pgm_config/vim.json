@@ -1,0 +1,6 @@
+{
+	"pgm_name": "vim-5.7",
+	"pgm_dir": "../benchmarks/vim-5.7/",
+	"exec_dir": "./src",
+	"exec_cmd": "'./vim -m -n -Z -i NONE -u NONE'"
+}

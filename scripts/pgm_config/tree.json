@@ -1,0 +1,6 @@
+{
+	"pgm_name": "tree-1.6.0",
+	"pgm_dir": "../benchmarks/tree-1.6.0/",
+	"exec_dir": "./",
+	"exec_cmd": "'./tree aaaaaaaaaa aaaaaaaaaa'"
+}

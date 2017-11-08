@@ -1,0 +1,286 @@
+tree (1.6.0-1) unstable; urgency=low
+
+  * [ebddf18] Imported Upstream version 1.6.0
+    Thanks to Steve for:
+    + dealing with symlink special case in $LS_COLORS (Closes: #586765,
+      also thanks to meillo for debugging)
+    + making --dirsfirst a meta-sort option (Closes: #492570)
+    + adding a --prune option to not show "empty" directories
+      (Closes: #308605)
+    + adding a --si option (Closes: #562971)
+  * [e19eb60] update packaging to use debhelper 8 w/ dh, complies with
+    Standards-Version: 3.9.2
+  * [865adaf] debian/copyright: update year
+  * [c6078ae] refresh/rename all patches
+
+ -- Florian Ernst <florian@debian.org>  Sat, 04 Feb 2012 14:32:03 +0100
+
+tree (1.5.3-2) unstable; urgency=low
+
+  * [e7fcffa] debian/rules: enable using iswprint() instead of isprint() to
+    determine if a character is printable by passing DLINUX in CFLAGS.
+    Thanks to Nikolaus Schulz for the patch and Christoph Berg for the gentle
+    prod (Closes: #580725)
+  * [fa27103] debian/control: Depends += ${misc:Depends}, Standards-Version:
+    3.9.1
+
+ -- Florian Ernst <florian@debian.org>  Mon, 14 Mar 2011 18:33:48 +0100
+
+tree (1.5.3-1) unstable; urgency=low
+
+  * Imported Upstream version 1.5.3, thanks to Steve Baker for explicitly
+    fixing
+    + Automatically select UTF-8 charset if TREE_CHARSET is not set, and the
+      locale is set to *UTF-8 (Closes: #407749)
+    + Use strcoll() instead of strcmp() to sort files based on locale if set
+      (Closes: #267395)
+    + Changed wording in tree(1) manpage (Closes: #556186)
+  * debian/changelog: fix lintian warning spelling-error-in-changelog
+  * debian/control: add Vcs-Browser and Vcs-Git
+  * Export modifications of upstream files to quilt patches
+    and change the source package format to 3.0 (quilt)
+  * Standards-Version: 3.8.3
+
+ -- Florian Ernst <florian@debian.org>  Mon, 14 Dec 2009 23:35:46 +0100
+
+tree (1.5.2.2-1) unstable; urgency=low
+
+  * New upstream release. Thanks to Steve Baker for explicitly fixing
+    + Current locale not used to display file name (Closes: #504217)
+    + tree doesn't support 32 bit UIDs/GIDs (Closes: #440475)
+  * debian/copyright: Update year
+
+ -- Florian Ernst <florian@debian.org>  Sun, 15 Feb 2009 14:39:47 +0100
+
+tree (1.5.2.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Extend debian/copyright to cover newly added strverscmp.c
+  * Standards-Version 3.8.0
+
+ -- Florian Ernst <florian@debian.org>  Thu, 04 Sep 2008 22:37:46 +0200
+
+tree (1.5.2-1) unstable; urgency=low
+
+  * New upstream release
+    + Added -v option for version sorting (also called natural sorting) ala ls
+      (Closes: #482142)
+
+ -- Florian Ernst <florian@debian.org>  Mon, 07 Jul 2008 18:53:33 +0200
+
+tree (1.5.1.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: move Homepage to its own field
+  * debian/copyright: update to 2008 info
+  * Standards-Version 3.7.3
+
+ -- Florian Ernst <florian@debian.org>  Sat, 07 Jun 2008 09:58:08 +0200
+
+tree (1.5.1.1-1) unstable; urgency=low
+
+  * New upstream release
+    + Fixes linebreaks in HTML output (Closes: #429454)
+
+ -- Florian Ernst <florian@debian.org>  Thu, 19 Jul 2007 10:35:06 +0200
+
+tree (1.5.1-2) unstable; urgency=low
+
+  * Fix manpage typo, thanks once more to A. Costa (Closes: #408326)
+
+ -- Florian Ernst <florian@debian.org>  Thu, 25 Jan 2007 00:22:12 +0100
+
+tree (1.5.1-1) unstable; urgency=low
+
+  * New upstream release, changes include
+    + Fixed missing <br>'s when -i option used with -H (Closes: #314198)
+    + Added -h option for human readable output (Closes: #315185)
+  * debian/copyright: update FSF address
+  * debian/changelog: remove cruft from end of file
+  * debhelper compatibility level 5
+  * Standards-Version 3.7.2
+
+ -- Florian Ernst <florian@debian.org>  Tue, 23 Jan 2007 13:09:38 +0100
+
+tree (1.5.0-2) unstable; urgency=low
+
+  * New maintainer address, many thanks to Eduard Bloch and Andreas Barth
+    for previous sponsoring
+  * reintroduce PATH_MAX definition to allow building on Hurd, see #105432
+
+ -- Florian Ernst <florian@debian.org>  Wed, 30 Mar 2005 19:50:06 +0200
+
+tree (1.5.0-1) unstable; urgency=medium
+
+  * This should really go into Sarge
+  * New upstream release, changes include
+    + Added -T option to change title and H1 header in HTML output
+      (Closes: #193136)
+    + Added -r option to reverse alpha sort output, ala. 'ls -r'
+      (Closes: #193356)
+    + Better support for Locales and printing utf-8 encoded characters in
+      filenames (still hackish) (Closes: #114791)
+    + Fixed -t to alphasort files with same time-stamps (Closes: #193357)
+    + Fixed encoding of filenames in HTML output (Closes: #181738)
+    + Changed license from "Artistic License" to GPLv2
+    + compiles cleanly with gcc-3.4 (Closes: #266236)
+  * debian/copyright: reflect license change
+  * debian/rules: adjust LDFLAGS for nostrip
+
+ -- Florian Ernst <florian_ernst@gmx.net>  Wed, 18 Aug 2004 11:12:03 +0200
+
+tree (1.4b3-2) unstable; urgency=low
+
+  * Added sanity check to split function. Thanks, Kototama! (Closes: #259998)
+  * debian/rules: s/dh_installmanpages/dh_installman/
+  * debian/watch: now really added
+
+ -- Florian Ernst <florian_ernst@gmx.net>  Tue, 27 Jul 2004 15:17:37 +0200
+
+tree (1.4b3-1) unstable; urgency=low
+
+  * New maintainer
+  * New upstream release (Closes: #252722)
+    + adds LargeFileSupport (Closes: #254011)
+  * Additional patches:
+    + don't set GENERATOR META info to "Linux" (Closes: #203143)
+    + better document -l switch (Closes: #162332)
+    + s/font-weight/font-size/g
+    + cosmetical fix in HTML output
+    + adjust Makefile for nostrip
+  * debian/copyright: add note about previous and current maintainer
+  * debian/control:
+    + add upstream home page
+    + bumped Standards-Version to 3.6.1
+  * debian/rules:
+    + streamlined, best practices
+    + added check for noopt
+  * debian/watch: added
+  * Dropped unneeded postinst and prerm
+  * Acknowledge NMUs (Closes: #195058, #114791, #162259, #76594, #152385)
+    Thanks to Uli Martens and Susan Kleinmann!
+
+ -- Florian Ernst <florian_ernst@gmx.net>  Wed, 14 Jul 2004 11:12:28 +0200
+
+tree (1.4b2-0.2.1) unstable; urgency=low
+
+  * NMU
+  * escaped line endings in string constants (closes: bug#195058)
+  * removed an empty switch-default: to get rid of the warning
+
+ -- Uli Martens <uli@youam.net>  Mon, 14 Jul 2003 10:32:58 +0200
+
+tree (1.4b2-0.2) unstable; urgency=low
+
+  * Moved man page to /usr/share/man/man1 (closes: bug#162259) 
+
+ -- Susan Kleinmann <sgk@debian.org>  Wed, 25 Sep 2002 09:51:18 -0400
+
+tree (1.4b2-0.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * New upstream version (closes: bug#152386)
+  * URL fixed in the copyright file (closes: bug#152385)
+  * The new version displays accentuated letters (closes: bug#114791)
+  * The new version does not print open errors on stderr (closes: bug#76594)
+  * Incorporated the new LICENSE file into the copyright.
+
+ -- Susan Kleinmann <sgk@debian.org>  Thu,  5 Sep 2002 08:07:30 -0400
+
+tree (1.3-2) unstable; urgency=low
+
+  * Add PATH_MAX fallback define to compile on Hurd (Closes: #107051, #105432)
+  * Fix typo in manpage (Closes #106806)
+
+ -- Scott K. Ellis <scott@debian.org>  Tue, 20 Nov 2001 19:52:42 -0500
+
+tree (1.3-1) unstable; urgency=low
+
+  * Maintainer upload
+  * Rebuild with debhelper
+
+ -- Scott K. Ellis <scott@debian.org>  Tue,  9 May 2000 09:34:59 -0400
+
+tree (1.3-0.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * New upstream release.
+  * Bumped Standards-Version to 3.0.1.
+  * Included postinst, prerm scripts for /usr/doc -> /usr/share/doc symlink.
+
+ -- Thomas Schoepf <schoepf@debian.org>  Fri,  8 Oct 1999 00:15:00 +0200
+
+tree (1.2-6) unstable; urgency=low
+
+  * Rebuild to remove bogus information from md5sums file.
+
+ -- Scott K. Ellis <scott@debian.org>  Mon,  9 Feb 1998 10:10:48 -0500
+
+tree (1.2-5) unstable; urgency=low
+
+  * Don't us sudo in debian/rules (fixes #15457)
+
+ -- Scott K. Ellis <scott@debian.org>  Mon, 19 Jan 1998 13:52:40 -0500
+
+tree (1.2-4) unstable; urgency=low
+
+  * Changed maintainer address to *@debian.org
+  * Rename upstream changelog (fixes bug #2639)
+  * Recompile with glibc.
+
+ -- Scott K. Ellis <scott@debian.org>  Wed, 18 Jun 1997 21:11:42 -0400
+
+tree (1.2-3) unstable; urgency=low
+
+  * New Maintainer
+
+ -- Scott K. Ellis <storm@gate.net>  Mon, 17 Feb 1997 21:07:22 -0500
+
+tree (1.2-2) unstable; urgency=low
+
+  * Moved into section utils.
+
+ -- Joey Hess <joeyh@master.debian.org>  Thu, 9 Jan 1997 20:06:05 -0500
+
+tree (1.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Renamed CHANGES to changelog.upstream.
+
+ -- Joey Hess <joeyh@master.debian.org>  Mon, 6 Jan 1997 14:19:34 -0500
+
+tree (1.1.1-3) unstable; urgency=low
+
+  * New maintainer email address.
+  * Use debmake.
+
+ -- Joey Hess <joeyh@master.debian.org>  Sat, 21 Dec 1996 00:43:52 -0500
+
+tree (1.1.1-2) unstable; urgency=low
+
+  * Routine update of debian/rules.
+  * Fixed permissions of manpage.
+
+ -- Joey Hess <joeyh@master.debian.org>  Thu, 17 Oct 1996 01:40:32 -0400
+
+tree (1.1.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Joey Hess <joeyh@master.debian.org>  Tue, 24 Sep 1996 23:32:40 -0400
+
+tree (1.1-1) unstable; urgency=low
+
+  * Updated to new packaging standard
+  * New upstream release
+
+ -- Joey Hess <joeyh@master.debian.org>  Tue, 24 Sep 1996 23:32:40 -0400
+
+1.0-3
+  * Fixed m68k problem: made Makefile more portable 
+  * Routine update of debian.rules
+1.0-2
+  * changed priority to optional
+1.0-1   
+  * Initial release
+

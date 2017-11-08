@@ -1,0 +1,61 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:556: checking for bison
+configure:556: checking for byacc
+configure:587: checking whether ln -s works
+configure:610: checking for gcc
+configure:723: checking whether the C compiler (gcc  ) works
+configure:739: gcc -o conftest    conftest.c  1>&5
+configure:765: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:770: checking whether we are using GNU C
+configure:798: checking whether gcc accepts -g
+configure:830: checking how to run the C preprocessor
+configure:944: checking for a BSD compatible install
+configure:998: checking whether make sets ${MAKE}
+configure:1037: checking for AIX
+configure:1061: checking for POSIXized ISC
+configure:1083: checking for minix/config.h
+configure:1132: checking for ANSI C header files
+configure:1236: checking for sys/wait.h that is POSIX.1 compatible
+configure:1281: checking for limits.h
+configure:1281: checking for locale.h
+configure:1281: checking for stdarg.h
+configure:1281: checking for unistd.h
+configure:1281: checking for signum.h
+configure:1281: checking for sys/param.h
+configure:1281: checking for string.h
+configure:1323: checking for memory.h
+configure:1403: checking for pid_t
+configure:1436: checking return type of signal handlers
+configure:1477: checking for size_t
+configure:1510: checking for uid_t in sys/types.h
+configure:1544: checking type of array argument to getgroups
+configure:1642: checking for working alloca.h
+configure:1675: checking for alloca
+configure:1879: checking for vprintf
+configure:1985: checking for fmod in -lm
+configure:2035: checking for madvise
+configure:2035: checking for memset
+configure:2035: checking for memcpy
+configure:2035: checking for memcmp
+configure:2035: checking for fmod
+configure:2035: checking for setlocale
+configure:2035: checking for strchr
+configure:2035: checking for strerror
+configure:2035: checking for strftime
+configure:2035: checking for strncasecmp
+configure:2035: checking for strtod
+configure:2035: checking for system
+configure:2035: checking for tzset
+configure:2092: checking for unistd.h
+configure:2131: checking for getpagesize
+configure:2184: checking for working mmap
+configure:2363: checking whether getpgrp takes no argument
+configure:2542: checking for st_blksize in struct stat
+configure:2576: checking whether time.h and sys/time.h may both be included
+configure:2611: checking whether struct tm is in sys/time.h or time.h
+configure:2645: checking for tm_zone in struct tm
+configure:2716: checking whether char is unsigned
+configure:2779: checking for working const
+configure:2856: checking for ANSI stringizing capability

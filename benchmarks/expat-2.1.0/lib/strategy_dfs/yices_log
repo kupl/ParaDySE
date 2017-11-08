@@ -1,0 +1,5 @@
+(define x2023::int)
+(assert (>= x2023 -128))
+(assert (<= x2023 127))
+(assert (= (+ 0 (* x2023 1)) 0))
+(check)

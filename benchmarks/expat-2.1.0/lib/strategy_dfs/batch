@@ -1,0 +1,10 @@
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_00 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_01 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_02 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_03 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_04 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_05 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_06 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_07 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_08 1>/dev/null
+run_crest "a.out_comb example2.xml 4430" input.1 4000 -dfs 2> output_dfs_09 1>/dev/null

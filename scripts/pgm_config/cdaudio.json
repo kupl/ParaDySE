@@ -1,0 +1,6 @@
+{
+	"pgm_name": "cdaudio",
+	"pgm_dir": "../benchmarks/small_benchmarks/cdaudio/",
+	"exec_dir": "./",
+	"exec_cmd": "'./cdaudio'"
+}

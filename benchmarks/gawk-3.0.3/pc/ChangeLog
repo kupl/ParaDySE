@@ -1,0 +1,43 @@
+Thu May 15 12:49:08 1997  Arnold D. Robbins  <arnold@skeeve.atl.ga.us>
+
+	* Release 3.0.3: Release tar file made.
+
+Tues May 13 20:06:09 1997  Darrel Hankerson  <hankedr@mail.auburn.edu>
+
+	* vcWin32 target added.  Some new tests for WIN32 in gawkmisc.c
+	  io.c, and regex.c.  Makefile changes for nmake, which can't 
+	  expand $($x).
+
+	* config.h updated for BITOPS and NONDECDATA (also in Makefile).
+
+Fri Apr 18 07:55:47 1997  Arnold D. Robbins  <arnold@skeeve.atl.ga.us>
+
+	* BETA Release 3.0.34: Release tar file made.
+
+Fri Jan 17 19:20:45 1997  Darrel Hankerson  <hankedr@mail.auburn.edu>
+
+	* Makefile: add KUR's emxnt target for emx+RSXNT.  Create awk.exe
+	  "link" to gawk.exe for djgpp target.  (Suggested by Eli Zaretskii.
+	  Should be done as part of a smarter install, since awk.exe only
+	  works with djgpp gawk.exe.)  Separate djgpp-v1 into djgppv1 
+	  target.  Install awk.exe if present.
+
+	* install.awk: install awk.exe if present (only for djgpp)
+
+	* config.h: additional include for emx+RSXNT.
+
+Wed Dec 25 11:25:22 1996  Arnold D. Robbins  <arnold@skeeve.atl.ga.us>
+
+	* Release 3.0.2: Release tar file made.
+
+Tue Dec 10 23:09:26 1996  Arnold D. Robbins  <arnold@skeeve.atl.ga.us>
+
+	* Release 3.0.1: Release tar file made.
+
+Thu Aug  1 19:46:00 1996  Scott Deifik       <scottd@amgen.com>
+
+	* Makefile: Changes for MSC 8.
+
+Wed Jan 10 22:58:55 1996  Arnold D. Robbins  <arnold@skeeve.atl.ga.us>
+
+	* ChangeLog created.

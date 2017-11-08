@@ -1,0 +1,11 @@
+#!/bin/bash
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_00 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_01 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_02 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_03 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_04 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_05 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_06 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_07 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_08 2> /dev/null
+/usr/local/bin/python crest_driver.py "a.out_comb example2.xml 4430" -i input.1 -n 4000 -s bfs-hcontext-bid --score branch_score_icfg --dom dominator_icfg 1> output_context_09 2> /dev/null

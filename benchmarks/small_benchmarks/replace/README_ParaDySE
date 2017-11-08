@@ -1,0 +1,10 @@
+To compile replace for use with ParaDySE:
+	(1) ../../../bin/crestc replace.c
+
+
+To run ParaDySE:
+	(1) ../../../bin/run_crest ./replace replace.input log 4000 -param replace.w
+
+
+To clean
+	(1) ./clean.sh 

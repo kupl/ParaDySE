@@ -1,0 +1,520 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+A1_MATCHED_BIT	sed.c	153;"	d	file:
+ADDR_BANG_BIT	sed.c	154;"	d	file:
+AT_STRINGS_BEG	sed.c	5280;"	d	file:
+AT_STRINGS_END	sed.c	5281;"	d	file:
+AT_WORD_BOUNDARY	sed.c	5295;"	d	file:
+BAD_EOF	sed.c	/^static char BAD_EOF[] = "Unexpected End-of-file";$/;"	v	file:
+BUF_PUSH	sed.c	3089;"	d	file:
+BUF_PUSH_2	sed.c	3097;"	d	file:
+BUF_PUSH_3	sed.c	3106;"	d	file:
+BYTEWIDTH	sed.c	2431;"	d	file:
+CHAR_CLASS_MAX_LENGTH	sed.c	3235;"	d	file:
+CHAR_SET_SIZE	sed.c	2291;"	d	file:
+COMPILE_STACK_EMPTY	sed.c	3205;"	d	file:
+COMPILE_STACK_FULL	sed.c	3206;"	d	file:
+COMPILE_STACK_TOP	sed.c	3209;"	d	file:
+DEBUG_POP	sed.c	4538;"	d	file:
+DEBUG_POP	sed.c	4541;"	d	file:
+DEBUG_PRINT1	sed.c	2673;"	d	file:
+DEBUG_PRINT1	sed.c	2987;"	d	file:
+DEBUG_PRINT2	sed.c	2674;"	d	file:
+DEBUG_PRINT2	sed.c	2988;"	d	file:
+DEBUG_PRINT3	sed.c	2675;"	d	file:
+DEBUG_PRINT3	sed.c	2989;"	d	file:
+DEBUG_PRINT4	sed.c	2676;"	d	file:
+DEBUG_PRINT4	sed.c	2990;"	d	file:
+DEBUG_PRINT_COMPILED_PATTERN	sed.c	2677;"	d	file:
+DEBUG_PRINT_COMPILED_PATTERN	sed.c	2991;"	d	file:
+DEBUG_PRINT_DOUBLE_STRING	sed.c	2679;"	d	file:
+DEBUG_PRINT_DOUBLE_STRING	sed.c	2992;"	d	file:
+DEBUG_PUSH	sed.c	4537;"	d	file:
+DEBUG_PUSH	sed.c	4540;"	d	file:
+DEBUG_STATEMENT	sed.c	2672;"	d	file:
+DEBUG_STATEMENT	sed.c	2986;"	d	file:
+DOUBLE_FAIL_STACK	sed.c	4501;"	d	file:
+EVER_MATCHED_SOMETHING	sed.c	5230;"	d	file:
+EXTEND_BUFFER	sed.c	3143;"	d	file:
+EXTRACT_NUMBER	sed.c	2605;"	d	file:
+EXTRACT_NUMBER	sed.c	2623;"	d	file:
+EXTRACT_NUMBER	sed.c	2624;"	d	file:
+EXTRACT_NUMBER_AND_INCR	sed.c	2632;"	d	file:
+EXTRACT_NUMBER_AND_INCR	sed.c	2649;"	d	file:
+EXTRACT_NUMBER_AND_INCR	sed.c	2650;"	d	file:
+FAIL_STACK_EMPTY	sed.c	4473;"	d	file:
+FAIL_STACK_FULL	sed.c	4475;"	d	file:
+FAIL_STACK_PTR_EMPTY	sed.c	4474;"	d	file:
+FAIL_STACK_TOP	sed.c	4476;"	d	file:
+FIRST_STRING_P	sed.c	2423;"	d	file:
+FREE_VAR	sed.c	5302;"	d	file:
+FREE_VARIABLES	sed.c	5303;"	d	file:
+FREE_VARIABLES	sed.c	5318;"	d	file:
+GET_BUFFER_SPACE	sed.c	3084;"	d	file:
+GET_UNSIGNED_NUMBER	sed.c	3219;"	d	file:
+HAVE_ALLOCA_H	sed.c	6;"	d	file:
+HAVE_BCOPY	sed.c	4;"	d	file:
+HAVE_MEMCPY	sed.c	5;"	d	file:
+HAVE_STRING_H	sed.c	2;"	d	file:
+HAVE_VPRINTF	sed.c	3;"	d	file:
+INIT_BUF_SIZE	sed.c	3081;"	d	file:
+INIT_COMPILE_STACK_SIZE	sed.c	3203;"	d	file:
+INIT_FAILURE_ALLOC	sed.c	4455;"	d	file:
+INIT_FAIL_STACK	sed.c	4481;"	d	file:
+INSERT_JUMP	sed.c	3125;"	d	file:
+INSERT_JUMP2	sed.c	3129;"	d	file:
+ISALNUM	sed.c	2349;"	d	file:
+ISALPHA	sed.c	2350;"	d	file:
+ISBLANK	sed.c	2337;"	d	file:
+ISBLANK	sed.c	2339;"	d	file:
+ISCNTRL	sed.c	2351;"	d	file:
+ISDIGIT	sed.c	2348;"	d	file:
+ISGRAPH	sed.c	2342;"	d	file:
+ISGRAPH	sed.c	2344;"	d	file:
+ISLOWER	sed.c	2352;"	d	file:
+ISPRINT	sed.c	2347;"	d	file:
+ISPUNCT	sed.c	2353;"	d	file:
+ISSPACE	sed.c	2354;"	d	file:
+ISUPPER	sed.c	2355;"	d	file:
+ISXDIGIT	sed.c	2356;"	d	file:
+IS_ACTIVE	sed.c	5228;"	d	file:
+IS_CHAR_CLASS	sed.c	3237;"	d	file:
+LINE_JUNK	sed.c	/^static char LINE_JUNK[] = "Extra characters after command";$/;"	v	file:
+MATCHED_SOMETHING	sed.c	5229;"	d	file:
+MATCHING_IN_FIRST_STRING	sed.c	5262;"	d	file:
+MATCH_NULL_UNSET_VALUE	sed.c	5219;"	d	file:
+MAX	sed.c	2435;"	d	file:
+MAX_BUF_SIZE	sed.c	3136;"	d	file:
+MAX_FAILURE_ITEMS	sed.c	4640;"	d	file:
+MAX_REGNUM	sed.c	3172;"	d	file:
+MIN	sed.c	2436;"	d	file:
+MIN_ALLOCATE	sed.c	2118;"	d	file:
+MORE_CMDS	sed.c	544;"	d	file:
+NO_ADDR	sed.c	/^static char NO_ADDR[] = "Command doesn't take any addresses";$/;"	v	file:
+NO_COMMAND	sed.c	/^static char NO_COMMAND[] = "Missing command";$/;"	v	file:
+NO_HIGHEST_ACTIVE_REG	sed.c	5329;"	d	file:
+NO_LOWEST_ACTIVE_REG	sed.c	5330;"	d	file:
+NO_REGEX	sed.c	/^static char NO_REGEX[] = "No previous regular expression";$/;"	v	file:
+NULL	sed.c	2248;"	d	file:
+NULL	sed.c	2359;"	d	file:
+NULL	sed.c	7934;"	d	file:
+NUM_FAILURE_ITEMS	sed.c	4643;"	d	file:
+NUM_FPS	sed.c	226;"	d	file:
+NUM_NONREG_ITEMS	sed.c	4634;"	d	file:
+NUM_NONREG_ITEMS	sed.c	4636;"	d	file:
+NUM_REG_ITEMS	sed.c	4630;"	d	file:
+N_FILE	sed.c	1983;"	d	file:
+ONE_ADDR	sed.c	/^static char ONE_ADDR[] = "Command only uses one address";$/;"	v	file:
+PATFETCH	sed.c	3054;"	d	file:
+PATFETCH_RAW	sed.c	3062;"	d	file:
+PATUNFETCH	sed.c	3068;"	d	file:
+PERMUTE	sed.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon11	file:
+POINTER_TO_OFFSET	sed.c	5252;"	d	file:
+POP_FAILURE_ITEM	sed.c	4533;"	d	file:
+POP_FAILURE_POINT	sed.c	4663;"	d	file:
+PREFETCH	sed.c	5266;"	d	file:
+PUSH_FAILURE_ITEM	sed.c	4529;"	d	file:
+PUSH_FAILURE_POINT	sed.c	4554;"	d	file:
+PUSH_PATTERN_OP	sed.c	4519;"	d	file:
+P_	sed.c	238;"	d	file:
+P_	sed.c	240;"	d	file:
+REGEX_ALLOCATE	sed.c	2386;"	d	file:
+REGEX_ALLOCATE	sed.c	2409;"	d	file:
+REGEX_REALLOCATE	sed.c	2387;"	d	file:
+REGEX_REALLOCATE	sed.c	2412;"	d	file:
+REGEX_TALLOC	sed.c	2429;"	d	file:
+REGS_FIXED	regex.h	322;"	d
+REGS_REALLOCATE	regex.h	321;"	d
+REGS_UNALLOCATED	regex.h	320;"	d
+REG_BADBR	regex.h	/^  REG_BADBR,		\/* Invalid contents of \\{\\}.  *\/$/;"	e	enum:__anon12
+REG_BADPAT	regex.h	/^  REG_BADPAT,		\/* Invalid pattern.  *\/$/;"	e	enum:__anon12
+REG_BADRPT	regex.h	/^  REG_BADRPT,		\/* No preceding re for repetition op.  *\/$/;"	e	enum:__anon12
+REG_EBRACE	regex.h	/^  REG_EBRACE,		\/* Unmatched \\{.  *\/$/;"	e	enum:__anon12
+REG_EBRACK	regex.h	/^  REG_EBRACK,		\/* Unmatched left bracket.  *\/$/;"	e	enum:__anon12
+REG_ECOLLATE	regex.h	/^  REG_ECOLLATE,		\/* Not implemented.  *\/$/;"	e	enum:__anon12
+REG_ECTYPE	regex.h	/^  REG_ECTYPE,		\/* Invalid character class name.  *\/$/;"	e	enum:__anon12
+REG_EEND	regex.h	/^  REG_EEND,		\/* Premature end.  *\/$/;"	e	enum:__anon12
+REG_EESCAPE	regex.h	/^  REG_EESCAPE,		\/* Trailing backslash.  *\/$/;"	e	enum:__anon12
+REG_EPAREN	regex.h	/^  REG_EPAREN,		\/* Parenthesis imbalance.  *\/ $/;"	e	enum:__anon12
+REG_ERANGE	regex.h	/^  REG_ERANGE,		\/* Invalid range end.  *\/$/;"	e	enum:__anon12
+REG_ERPAREN	regex.h	/^  REG_ERPAREN		\/* Unmatched ) or \\); not returned from regcomp.  *\/$/;"	e	enum:__anon12
+REG_ESIZE	regex.h	/^  REG_ESIZE,		\/* Compiled pattern bigger than 2^16 bytes.  *\/$/;"	e	enum:__anon12
+REG_ESPACE	regex.h	/^  REG_ESPACE,		\/* Ran out of memory.  *\/$/;"	e	enum:__anon12
+REG_ESUBREG	regex.h	/^  REG_ESUBREG,		\/* Invalid back reference.  *\/$/;"	e	enum:__anon12
+REG_EXTENDED	regex.h	215;"	d
+REG_ICASE	regex.h	219;"	d
+REG_MATCH_NULL_STRING_P	sed.c	5227;"	d	file:
+REG_NEWLINE	regex.h	224;"	d
+REG_NOERROR	regex.h	/^  REG_NOERROR = 0,	\/* Success.  *\/$/;"	e	enum:__anon12
+REG_NOMATCH	regex.h	/^  REG_NOMATCH,		\/* Didn't find a match (for regexec).  *\/$/;"	e	enum:__anon12
+REG_NOSUB	regex.h	228;"	d
+REG_NOTBOL	regex.h	238;"	d
+REG_NOTEOL	regex.h	241;"	d
+REG_UNSET	sed.c	5257;"	d	file:
+REG_UNSET_VALUE	sed.c	5256;"	d	file:
+REMAINING_AVAIL_SLOTS	sed.c	4648;"	d	file:
+REQUIRE_ORDER	sed.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon11	file:
+RETALLOC	sed.c	2428;"	d	file:
+RETURN_IN_ORDER	sed.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon11	file:
+RE_BACKSLASH_ESCAPE_IN_LISTS	regex.h	42;"	d
+RE_BK_PLUS_QM	regex.h	47;"	d
+RE_CHAR_CLASSES	regex.h	53;"	d
+RE_CONTEXT_INDEP_ANCHORS	regex.h	67;"	d
+RE_CONTEXT_INDEP_OPS	regex.h	75;"	d
+RE_CONTEXT_INVALID_OPS	regex.h	79;"	d
+RE_DOT_NEWLINE	regex.h	83;"	d
+RE_DOT_NOT_NULL	regex.h	87;"	d
+RE_DUP_MAX	regex.h	206;"	d
+RE_DUP_MAX	regex.h	208;"	d
+RE_EXACTN_VALUE	regex.h	351;"	d
+RE_HAT_LISTS_NOT_NEWLINE	regex.h	91;"	d
+RE_INTERVALS	regex.h	96;"	d
+RE_LIMITED_OPS	regex.h	100;"	d
+RE_NEWLINE_ALT	regex.h	104;"	d
+RE_NO_BK_BRACES	regex.h	109;"	d
+RE_NO_BK_PARENS	regex.h	113;"	d
+RE_NO_BK_REFS	regex.h	117;"	d
+RE_NO_BK_VBAR	regex.h	121;"	d
+RE_NO_EMPTY_RANGES	regex.h	127;"	d
+RE_NREGS	regex.h	371;"	d
+RE_SYNTAX_AWK	regex.h	145;"	d
+RE_SYNTAX_ED	regex.h	169;"	d
+RE_SYNTAX_EGREP	regex.h	159;"	d
+RE_SYNTAX_EMACS	regex.h	143;"	d
+RE_SYNTAX_GREP	regex.h	154;"	d
+RE_SYNTAX_POSIX_AWK	regex.h	151;"	d
+RE_SYNTAX_POSIX_BASIC	regex.h	178;"	d
+RE_SYNTAX_POSIX_EGREP	regex.h	165;"	d
+RE_SYNTAX_POSIX_EXTENDED	regex.h	187;"	d
+RE_SYNTAX_POSIX_MINIMAL_BASIC	regex.h	184;"	d
+RE_SYNTAX_POSIX_MINIMAL_EXTENDED	regex.h	195;"	d
+RE_SYNTAX_SED	regex.h	171;"	d
+RE_UNMATCHED_RIGHT_PAREN_ORD	regex.h	131;"	d
+SET_LIST_BIT	sed.c	3213;"	d	file:
+SET_REGS_MATCHED	sed.c	5236;"	d	file:
+SIGN_EXTEND_CHAR	sed.c	2366;"	d	file:
+SIGN_EXTEND_CHAR	sed.c	2368;"	d	file:
+SIGN_EXTEND_CHAR	sed.c	2371;"	d	file:
+STDC_HEADERS	sed.c	1;"	d	file:
+STORE_JUMP	sed.c	3117;"	d	file:
+STORE_JUMP2	sed.c	3121;"	d	file:
+STORE_NUMBER	sed.c	2586;"	d	file:
+STORE_NUMBER_AND_INCR	sed.c	2596;"	d	file:
+STREQ	sed.c	2433;"	d	file:
+SYNTAX	sed.c	2322;"	d	file:
+S_GLOBAL_BIT	sed.c	186;"	d	file:
+S_NUM_BIT	sed.c	189;"	d	file:
+S_PRINT_BIT	sed.c	187;"	d	file:
+S_WRITE_BIT	sed.c	188;"	d	file:
+Sword	sed.c	2281;"	d	file:
+TALLOC	sed.c	2427;"	d	file:
+TRANSLATE	sed.c	3075;"	d	file:
+VOID	sed.c	1909;"	d	file:
+VOID	sed.c	1911;"	d	file:
+VOID	sed.c	29;"	d	file:
+VOID	sed.c	31;"	d	file:
+WORDCHAR_P	sed.c	5288;"	d	file:
+_GETOPT_H	getopt.h	19;"	d
+_GNU_SOURCE	sed.c	2230;"	d	file:
+_GNU_SOURCE	sed.c	35;"	d	file:
+_NO_PROTO	sed.c	7203;"	d	file:
+_RE_ARGS	regex.h	394;"	d
+_RE_ARGS	regex.h	398;"	d
+_RE_SYNTAX_POSIX_COMMON	regex.h	174;"	d
+__REGEXP_LIBRARY_H__	regex.h	21;"	d
+__alloca	sed.c	7227;"	d	file:
+__fp_name	sed.c	/^__fp_name(fp)$/;"	f
+__id_s	sed.c	/^static struct id __id_s[N_FILE];$/;"	v	typeref:struct:id	file:
+_getopt_internal	sed.c	/^_getopt_internal (argc, argv, optstring, longopts, longind, long_only)$/;"	f
+a1	sed.c	/^  struct addr a1, a2;$/;"	m	struct:sed_cmd	typeref:struct:sed_cmd::addr	file:
+a2	sed.c	/^  struct addr a1, a2;$/;"	m	struct:sed_cmd	typeref:struct:sed_cmd::	file:
+add1_buffer	sed.c	/^add1_buffer(bb,ch)$/;"	f
+add_buffer	sed.c	/^add_buffer(bb,p,n)$/;"	f
+addr	sed.c	/^struct addr$/;"	s	file:
+addr_is_last	sed.c	/^  addr_is_last = 3$/;"	e	enum:addr_types	file:
+addr_is_null	sed.c	/^  addr_is_null = 0,$/;"	e	enum:addr_types	file:
+addr_is_num	sed.c	/^  addr_is_num = 1,$/;"	e	enum:addr_types	file:
+addr_is_regex	sed.c	/^  addr_is_regex = 2,$/;"	e	enum:addr_types	file:
+addr_number	sed.c	/^  int addr_number;$/;"	m	struct:addr	file:
+addr_regex	sed.c	/^  struct re_pattern_buffer *addr_regex;$/;"	m	struct:addr	typeref:struct:addr::re_pattern_buffer	file:
+addr_type	sed.c	/^  int addr_type;$/;"	m	struct:addr	file:
+addr_types	sed.c	/^enum addr_types$/;"	g	file:
+aflags	sed.c	/^  int aflags;$/;"	m	struct:sed_cmd	file:
+after_dot	sed.c	/^  after_dot,	\/* Succeeds if after point.  *\/$/;"	e	enum:__anon5	file:
+alloc	sed.c	/^  int alloc;            \/* Allocated space for text. *\/$/;"	m	struct:line	file:
+alloca	sed.c	2396;"	d	file:
+alloca	sed.c	7185;"	d	file:
+alloca	sed.c	7222;"	d	file:
+allocated	regex.h	/^  unsigned long allocated;$/;"	m	struct:re_pattern_buffer
+allocated	sed.c	/^	int	allocated;$/;"	m	struct:buffer	file:
+alt_match_null_string_p	sed.c	/^alt_match_null_string_p (p, end, reg_info)$/;"	f	file:
+anychar	sed.c	/^  anychar,$/;"	e	enum:__anon5	file:
+append	sed.c	/^struct line append;$/;"	v	typeref:struct:line
+append_pattern_space	sed.c	/^append_pattern_space ()$/;"	f
+assert	sed.c	2983;"	d	file:
+assert	sed.c	2984;"	d	file:
+at_begline_loc_p	sed.c	/^at_begline_loc_p (pattern, p, syntax)$/;"	f	file:
+at_dot	sed.c	/^  at_dot,	\/* Succeeds if at point.  *\/$/;"	e	enum:__anon5	file:
+at_endline_loc_p	sed.c	/^at_endline_loc_p (p, pend, syntax)$/;"	f	file:
+avail	sed.c	/^  unsigned avail;			\/* Offset of next open position.  *\/$/;"	m	struct:__anon7	file:
+avail	sed.c	/^  unsigned avail;			\/* Offset of next open position.  *\/$/;"	m	struct:__anon8	file:
+b	sed.c	/^	char	*b;$/;"	m	struct:buffer	file:
+bad_input	sed.c	/^int bad_input = 0;$/;"	v
+bad_prog	sed.c	/^bad_prog (why)$/;"	f
+bcmp	sed.c	2257;"	d	file:
+bcmp_translate	sed.c	/^bcmp_translate (s1, s2, len, translate)$/;"	f	file:
+bcopy	sed.c	/^bcopy (from, to, len)$/;"	f
+bcopy	sed.c	2260;"	d	file:
+bcopy	sed.c	64;"	d	file:
+before_dot	sed.c	/^  ,before_dot,	\/* Succeeds if before point.  *\/$/;"	e	enum:__anon5	file:
+begalt_offset	sed.c	/^  pattern_offset_t begalt_offset;$/;"	m	struct:__anon6	file:
+begbuf	sed.c	/^  begbuf,$/;"	e	enum:__anon5	file:
+begline	sed.c	/^  begline,$/;"	e	enum:__anon5	file:
+bits	sed.c	/^  } bits;$/;"	m	union:__anon9	typeref:struct:__anon9::__anon10	file:
+boolean	sed.c	/^typedef char boolean;$/;"	t	file:
+buffer	regex.h	/^  unsigned char *buffer;$/;"	m	struct:re_pattern_buffer
+buffer	sed.c	/^struct buffer {$/;"	s	file:
+bzero	sed.c	2263;"	d	file:
+can_be_null	regex.h	/^  unsigned can_be_null : 1;$/;"	m	struct:re_pattern_buffer
+charset	sed.c	/^  charset,$/;"	e	enum:__anon5	file:
+charset_not	sed.c	/^  charset_not,$/;"	e	enum:__anon5	file:
+chr_copy	sed.c	/^chr_copy (dest, src, len)$/;"	f	file:
+ck_fclose	sed.c	/^ck_fclose(stream)$/;"	f
+ck_fopen	sed.c	/^ck_fopen(name,mode)$/;"	f
+ck_fwrite	sed.c	/^ck_fwrite(ptr,size,nmemb,stream)$/;"	f
+ck_malloc	sed.c	/^ck_malloc(size)$/;"	f
+ck_realloc	sed.c	/^ck_realloc(ptr,size)$/;"	f
+ck_strdup	sed.c	/^ck_strdup(str)$/;"	f
+close_files	sed.c	/^close_files ()$/;"	f
+cmd	sed.c	/^  char cmd;$/;"	m	struct:sed_cmd	file:
+cmd_regex	sed.c	/^      cmd_regex;$/;"	m	union:sed_cmd::__anon1	typeref:struct:sed_cmd::__anon1::__anon3	file:
+cmd_txt	sed.c	/^      cmd_txt;$/;"	m	union:sed_cmd::__anon1	typeref:struct:sed_cmd::__anon1::__anon2	file:
+common_op_match_null_string_p	sed.c	/^common_op_match_null_string_p (p, end, reg_info)$/;"	f	file:
+compile_address	sed.c	/^compile_address (addr)$/;"	f
+compile_file	sed.c	/^compile_file (str)$/;"	f
+compile_filename	sed.c	/^compile_filename (readit)$/;"	f
+compile_program	sed.c	/^compile_program (vector, open_line)$/;"	f
+compile_range	sed.c	/^compile_range (p_ptr, pend, translate, syntax, b)$/;"	f	file:
+compile_regex	sed.c	/^compile_regex (slash)$/;"	f
+compile_stack_elt_t	sed.c	/^} compile_stack_elt_t;$/;"	t	typeref:struct:__anon6	file:
+compile_stack_type	sed.c	/^} compile_stack_type;$/;"	t	typeref:struct:__anon7	file:
+compile_string	sed.c	/^compile_string (str)$/;"	f
+const	sed.c	7198;"	d	file:
+const	sed.c	7909;"	d	file:
+debug	sed.c	/^static int debug = 0;$/;"	v	file:
+dummy_failure_jump	sed.c	/^  dummy_failure_jump,$/;"	e	enum:__anon5	file:
+duplicate	sed.c	/^  duplicate,$/;"	e	enum:__anon5	file:
+end	regex.h	/^  regoff_t *end;$/;"	m	struct:re_registers
+endbuf	sed.c	/^  endbuf,$/;"	e	enum:__anon5	file:
+endline	sed.c	/^  endline,$/;"	e	enum:__anon5	file:
+eol_pos	sed.c	/^eol_pos (str, len)$/;"	f	file:
+ever_matched_something	sed.c	/^    unsigned ever_matched_something : 1;$/;"	m	struct:__anon9::__anon10	file:
+exactn	sed.c	/^  exactn = 1,$/;"	e	enum:__anon5	file:
+exchange	sed.c	/^exchange (argv)$/;"	f	file:
+execute_program	sed.c	/^execute_program (vec)$/;"	f
+extract_number	sed.c	/^extract_number (dest, source)$/;"	f	file:
+extract_number_and_incr	sed.c	/^extract_number_and_incr (destination, source)$/;"	f	file:
+fail_stack_elt_t	sed.c	/^typedef const unsigned char *fail_stack_elt_t;$/;"	t	file:
+fail_stack_type	sed.c	/^} fail_stack_type;$/;"	t	typeref:struct:__anon8	file:
+false	sed.c	2439;"	d	file:
+fastmap	regex.h	/^  char *fastmap;$/;"	m	struct:re_pattern_buffer
+fastmap_accurate	regex.h	/^  unsigned fastmap_accurate : 1;$/;"	m	struct:re_pattern_buffer
+file_ptrs	sed.c	/^file_ptrs[NUM_FPS];$/;"	v	typeref:struct:__anon4
+first_nonopt	sed.c	/^static int first_nonopt;$/;"	v	file:
+fixup_alt_jump	sed.c	/^  pattern_offset_t fixup_alt_jump;$/;"	m	struct:__anon6	file:
+flag	getopt.h	/^  int *flag;$/;"	m	struct:option
+flags	sed.c	/^      int flags;$/;"	m	struct:sed_cmd::__anon1::__anon3	file:
+flush_buffer	sed.c	/^flush_buffer(bb)$/;"	f
+fp	sed.c	/^	FILE *fp;$/;"	m	struct:id	file:
+get_buffer	sed.c	/^get_buffer(bb)$/;"	f
+getopt	sed.c	/^getopt (argc, argv, optstring)$/;"	f
+getopt_long	sed.c	/^getopt_long (argc, argv, options, long_options, opt_index)$/;"	f
+getopt_long_only	sed.c	/^getopt_long_only (argc, argv, options, long_options, opt_index)$/;"	f
+group_in_compile_stack	sed.c	/^group_in_compile_stack (compile_stack, regnum)$/;"	f	file:
+group_match_null_string_p	sed.c	/^group_match_null_string_p (p, end, reg_info)$/;"	f	file:
+has_arg	getopt.h	/^  int has_arg;$/;"	m	struct:option
+hold	sed.c	/^struct line hold;$/;"	v	typeref:struct:line
+id	sed.c	/^struct id {$/;"	s	file:
+inchar	sed.c	/^inchar ()$/;"	f
+init_buffer	sed.c	/^init_buffer()$/;"	f
+init_syntax_once	sed.c	/^init_syntax_once ()$/;"	f	file:
+inner_group_offset	sed.c	/^  pattern_offset_t inner_group_offset;$/;"	m	struct:__anon6	file:
+input_EOF	sed.c	/^int input_EOF = 0;$/;"	v
+input_file	sed.c	/^FILE *input_file;$/;"	v
+input_line_number	sed.c	/^int input_line_number = 0;$/;"	v
+insert_op1	sed.c	/^insert_op1 (op, loc, arg, end)$/;"	f	file:
+insert_op2	sed.c	/^insert_op2 (op, loc, arg1, arg2, end)$/;"	f	file:
+io_file	sed.c	/^      FILE *io_file;$/;"	m	union:sed_cmd::__anon1	file:
+is_active	sed.c	/^    unsigned is_active : 1;$/;"	m	struct:__anon9::__anon10	file:
+isascii	sed.c	2333;"	d	file:
+isblank	sed.c	38;"	d	file:
+jump	sed.c	/^      struct sed_label *jump;$/;"	m	union:sed_cmd::__anon1	typeref:struct:sed_cmd::__anon1::sed_label	file:
+jump	sed.c	/^  jump, $/;"	e	enum:__anon5	file:
+jump_n	sed.c	/^  jump_n,$/;"	e	enum:__anon5	file:
+jump_past_alt	sed.c	/^  jump_past_alt,$/;"	e	enum:__anon5	file:
+jumps	sed.c	/^struct sed_label *jumps = 0;$/;"	v	typeref:struct:sed_label
+label	sed.c	/^      struct sed_cmd *label;$/;"	m	union:sed_cmd::__anon1	typeref:struct:sed_cmd::__anon1::sed_cmd	file:
+labels	sed.c	/^struct sed_label *labels = 0;$/;"	v	typeref:struct:sed_label
+last_input_file	sed.c	/^int last_input_file = 0;$/;"	v
+last_nonopt	sed.c	/^static int last_nonopt;$/;"	v	file:
+last_regex	sed.c	/^struct re_pattern_buffer *last_regex;$/;"	v	typeref:struct:re_pattern_buffer
+laststart_offset	sed.c	/^  pattern_offset_t laststart_offset;  $/;"	m	struct:__anon6	file:
+length	sed.c	/^	int	length;$/;"	m	struct:buffer	file:
+length	sed.c	/^  int length;           \/* Length of text. *\/$/;"	m	struct:line	file:
+line	sed.c	/^struct line line;$/;"	v	typeref:struct:line
+line	sed.c	/^struct line$/;"	s	file:
+line_append	sed.c	/^line_append (from, to)$/;"	f
+line_copy	sed.c	/^line_copy (from, to)$/;"	f
+longopts	sed.c	/^static struct option longopts[] =$/;"	v	typeref:struct:option	file:
+main	sed.c	/^main (argc, argv)$/;"	f
+match_address	sed.c	/^match_address (addr)$/;"	f
+match_null_string_p	sed.c	/^    unsigned match_null_string_p : 2;$/;"	m	struct:__anon9::__anon10	file:
+matched_something	sed.c	/^    unsigned matched_something : 1;$/;"	m	struct:__anon9::__anon10	file:
+maybe_pop_jump	sed.c	/^  maybe_pop_jump,$/;"	e	enum:__anon5	file:
+my_bcopy	sed.c	/^my_bcopy (from, to, size)$/;"	f	file:
+my_bcopy	sed.c	7335;"	d	file:
+my_index	sed.c	/^my_index (str, chr)$/;"	f	file:
+my_index	sed.c	7334;"	d	file:
+myname	sed.c	/^char *myname;$/;"	v
+name	getopt.h	/^  const char *name;$/;"	m	struct:option
+name	sed.c	/^	char *name;$/;"	m	struct:id	file:
+name	sed.c	/^    char *name;$/;"	m	struct:__anon4	file:
+name	sed.c	/^  char *name;$/;"	m	struct:sed_label	file:
+newline_anchor	regex.h	/^  unsigned newline_anchor : 1;$/;"	m	struct:re_pattern_buffer
+next	sed.c	/^  struct sed_label *next;$/;"	m	struct:sed_label	typeref:struct:sed_label::sed_label	file:
+nextchar	sed.c	/^static char *nextchar;$/;"	v	file:
+no_argument	getopt.h	93;"	d
+no_default_output	sed.c	/^int no_default_output = 0;$/;"	v
+no_op	sed.c	/^  no_op = 0,$/;"	e	enum:__anon5	file:
+no_sub	regex.h	/^  unsigned no_sub : 1;$/;"	m	struct:re_pattern_buffer
+not_bol	regex.h	/^  unsigned not_bol : 1;$/;"	m	struct:re_pattern_buffer
+not_eol	regex.h	/^  unsigned not_eol : 1;$/;"	m	struct:re_pattern_buffer
+notsyntaxspec	sed.c	/^  notsyntaxspec$/;"	e	enum:__anon5	file:
+notwordbound	sed.c	/^  notwordbound	\/* Succeeds if not at a word boundary.  *\/$/;"	e	enum:__anon5	file:
+notwordchar	sed.c	/^  notwordchar,	\/* Matches any char that is not a word-constituent.  *\/$/;"	e	enum:__anon5	file:
+num_regs	regex.h	/^  unsigned num_regs;$/;"	m	struct:re_registers
+numb	sed.c	/^      int numb;$/;"	m	struct:sed_cmd::__anon1::__anon3	file:
+on_failure_jump	sed.c	/^  on_failure_jump,$/;"	e	enum:__anon5	file:
+on_failure_keep_string_jump	sed.c	/^  on_failure_keep_string_jump,$/;"	e	enum:__anon5	file:
+optarg	sed.c	/^char *optarg = 0;$/;"	v
+opterr	sed.c	/^int opterr = 1;$/;"	v
+optind	sed.c	/^int optind = 0;$/;"	v
+option	getopt.h	/^struct option$/;"	s
+optional_argument	getopt.h	95;"	d
+optopt	sed.c	/^int optopt = '?';$/;"	v
+ordering	sed.c	/^} ordering;$/;"	v	typeref:enum:__anon11	file:
+panic	sed.c	/^panic(char *str, ...)$/;"	f
+panic	sed.c	/^panic(str,va_alist)$/;"	f
+pattern_offset_t	sed.c	/^typedef int pattern_offset_t;$/;"	t	file:
+phile	sed.c	/^    FILE *phile;$/;"	m	struct:__anon4	file:
+pop_failure_jump	sed.c	/^  pop_failure_jump,$/;"	e	enum:__anon5	file:
+print_compiled_pattern	sed.c	/^print_compiled_pattern (bufp)$/;"	f
+print_double_string	sed.c	/^print_double_string (where, string1, size1, string2, size2)$/;"	f
+print_fastmap	sed.c	/^print_fastmap (fastmap)$/;"	f
+print_partial_compiled_pattern	sed.c	/^print_partial_compiled_pattern (start, end)$/;"	f
+prog_cur	sed.c	/^unsigned char *prog_cur;$/;"	v
+prog_end	sed.c	/^unsigned char *prog_end;$/;"	v
+prog_file	sed.c	/^FILE *prog_file;$/;"	v
+prog_line	sed.c	/^int prog_line = 1;$/;"	v
+prog_name	sed.c	/^char *prog_name;$/;"	v
+prog_start	sed.c	/^unsigned char *prog_start;$/;"	v
+program_depth	sed.c	/^int program_depth = 0;$/;"	v
+push_dummy_failure	sed.c	/^  push_dummy_failure,$/;"	e	enum:__anon5	file:
+quit_cmd	sed.c	/^int quit_cmd = 0;$/;"	v
+re_comp	sed.c	/^re_comp (s)$/;"	f
+re_comp_buf	sed.c	/^static struct re_pattern_buffer re_comp_buf;$/;"	v	typeref:struct:re_pattern_buffer	file:
+re_compile_fastmap	sed.c	/^re_compile_fastmap (bufp)$/;"	f
+re_compile_pattern	sed.c	/^re_compile_pattern (pattern, length, bufp)$/;"	f
+re_error_msg	sed.c	/^static const char *re_error_msg[] =$/;"	v	file:
+re_exec	sed.c	/^re_exec (s)$/;"	f
+re_match	sed.c	/^re_match (bufp, string, size, pos, regs)$/;"	f
+re_match_2	sed.c	/^re_match_2 (bufp, string1, size1, string2, size2, pos, regs, stop)$/;"	f
+re_max_failures	sed.c	/^int re_max_failures = 2000;$/;"	v
+re_nsub	regex.h	/^  size_t re_nsub;$/;"	m	struct:re_pattern_buffer
+re_opcode_t	sed.c	/^} re_opcode_t;$/;"	t	typeref:enum:__anon5	file:
+re_pattern_buffer	regex.h	/^struct re_pattern_buffer$/;"	s
+re_registers	regex.h	/^struct re_registers$/;"	s
+re_search	sed.c	/^re_search (bufp, string, size, startpos, range, regs)$/;"	f
+re_search_2	sed.c	/^re_search_2 (bufp, string1, size1, string2, size2, startpos, range, regs, stop)$/;"	f
+re_set_registers	sed.c	/^re_set_registers (bufp, regs, num_regs, starts, ends)$/;"	f
+re_set_syntax	sed.c	/^re_set_syntax (syntax)$/;"	f
+re_syntax_options	sed.c	/^reg_syntax_t re_syntax_options = RE_SYNTAX_EMACS;$/;"	v
+re_syntax_table	sed.c	/^static char re_syntax_table[CHAR_SET_SIZE];$/;"	v	file:
+read_file	sed.c	/^read_file (name)$/;"	f
+read_pattern_space	sed.c	/^read_pattern_space ()$/;"	f
+readit	sed.c	/^    int readit;$/;"	m	struct:__anon4	file:
+reg_errcode_t	regex.h	/^} reg_errcode_t;$/;"	t	typeref:enum:__anon12
+reg_syntax_t	regex.h	/^typedef unsigned reg_syntax_t;$/;"	t
+regcomp	sed.c	/^regcomp (preg, pattern, cflags)$/;"	f
+regerror	sed.c	/^regerror (errcode, preg, errbuf, errbuf_size)$/;"	f
+regex_compile	sed.c	/^regex_compile (pattern, size, syntax, bufp)$/;"	f	file:
+regex_t	regex.h	/^typedef struct re_pattern_buffer regex_t;$/;"	t	typeref:struct:re_pattern_buffer
+regexec	sed.c	/^regexec (preg, string, nmatch, pmatch, eflags)$/;"	f
+regfree	sed.c	/^regfree (preg)$/;"	f
+register_info_type	sed.c	/^} register_info_type;$/;"	t	typeref:union:__anon9	file:
+regmatch_t	regex.h	/^} regmatch_t;$/;"	t	typeref:struct:__anon13
+regnum	sed.c	/^  regnum_t regnum;$/;"	m	struct:__anon6	file:
+regnum_t	sed.c	/^typedef unsigned regnum_t;$/;"	t	file:
+regoff_t	regex.h	/^typedef int regoff_t;$/;"	t
+regs	sed.c	/^static struct re_registers regs =$/;"	v	typeref:struct:re_registers	file:
+regs_allocated	regex.h	/^  unsigned regs_allocated : 2;$/;"	m	struct:re_pattern_buffer
+regx	sed.c	/^      struct re_pattern_buffer *regx;$/;"	m	struct:sed_cmd::__anon1::__anon3	typeref:struct:sed_cmd::__anon1::__anon3::re_pattern_buffer	file:
+replace_length	sed.c	/^      int replace_length;$/;"	m	struct:sed_cmd::__anon1::__anon3	file:
+replaced	sed.c	/^int replaced = 0;$/;"	v
+replacement	sed.c	/^      char *replacement;$/;"	m	struct:sed_cmd::__anon1::__anon3	file:
+required_argument	getopt.h	94;"	d
+return_i	sed.c	/^  int return_i;$/;"	m	struct:vector	file:
+return_v	sed.c	/^  struct vector *return_v;$/;"	m	struct:vector	typeref:struct:vector::vector	file:
+rm_eo	regex.h	/^  regoff_t rm_eo;  \/* Byte offset from string's start to substring's end.  *\/$/;"	m	struct:__anon13
+rm_so	regex.h	/^  regoff_t rm_so;  \/* Byte offset from string's start to substring's start.  *\/$/;"	m	struct:__anon13
+savchar	sed.c	/^savchar (ch)$/;"	f
+sed_cmd	sed.c	/^struct sed_cmd$/;"	s	file:
+sed_label	sed.c	/^struct sed_label$/;"	s	file:
+set_number_at	sed.c	/^  set_number_at,$/;"	e	enum:__anon5	file:
+setup_jump	sed.c	/^setup_jump (list, cmd, vec)$/;"	f
+size	sed.c	/^  unsigned size;$/;"	m	struct:__anon7	file:
+size	sed.c	/^  unsigned size;$/;"	m	struct:__anon8	file:
+size_buffer	sed.c	/^size_buffer(b)$/;"	f
+stack	sed.c	/^  compile_stack_elt_t *stack;$/;"	m	struct:__anon7	file:
+stack	sed.c	/^  fail_stack_elt_t *stack;$/;"	m	struct:__anon8	file:
+start	regex.h	/^  regoff_t *start;$/;"	m	struct:re_registers
+start_memory	sed.c	/^  start_memory,$/;"	e	enum:__anon5	file:
+stderr	sed.c	42;"	d	file:
+stderr	sed.c	43;"	d	file:
+stop_memory	sed.c	/^  stop_memory,$/;"	e	enum:__anon5	file:
+store_op1	sed.c	/^store_op1 (op, loc, arg)$/;"	f	file:
+store_op2	sed.c	/^store_op2 (op, loc, arg1, arg2)$/;"	f	file:
+str_append	sed.c	/^str_append (to, string, length)$/;"	f
+sub	sed.c	/^      struct vector *sub;$/;"	m	union:sed_cmd::__anon1	typeref:struct:sed_cmd::__anon1::vector	file:
+succeed_n	sed.c	/^  succeed_n,$/;"	e	enum:__anon5	file:
+syntax	regex.h	/^  reg_syntax_t syntax;$/;"	m	struct:re_pattern_buffer
+syntaxspec	sed.c	/^  syntaxspec,$/;"	e	enum:__anon5	file:
+text	sed.c	/^      char *text;$/;"	m	struct:sed_cmd::__anon1::__anon2	file:
+text	sed.c	/^  char *text;           \/* Pointer to line allocated by malloc. *\/$/;"	m	struct:line	file:
+text_len	sed.c	/^      int text_len;$/;"	m	struct:sed_cmd::__anon1::__anon2	file:
+the_program	sed.c	/^struct vector *the_program = 0;$/;"	v	typeref:struct:vector
+translate	regex.h	/^  char *translate;$/;"	m	struct:re_pattern_buffer
+translate	sed.c	/^      unsigned char *translate;$/;"	m	union:sed_cmd::__anon1	file:
+true	sed.c	2440;"	d	file:
+usage	sed.c	/^usage (status)$/;"	f
+used	regex.h	/^  unsigned long used;	$/;"	m	struct:re_pattern_buffer
+v	sed.c	/^  struct sed_cmd *v;$/;"	m	struct:vector	typeref:struct:vector::sed_cmd	file:
+v	sed.c	/^  struct vector *v;$/;"	m	struct:sed_label	typeref:struct:sed_label::vector	file:
+v_allocated	sed.c	/^  int v_allocated;$/;"	m	struct:vector	file:
+v_index	sed.c	/^  int v_index;$/;"	m	struct:sed_label	file:
+v_length	sed.c	/^  int v_length;$/;"	m	struct:vector	file:
+val	getopt.h	/^  int val;$/;"	m	struct:option
+vector	sed.c	/^struct vector$/;"	s	file:
+version_string	sed.c	/^char *version_string = "GNU sed version 1.17";$/;"	v
+wio_file	sed.c	/^      FILE *wio_file;$/;"	m	struct:sed_cmd::__anon1::__anon3	file:
+word	sed.c	/^  fail_stack_elt_t word;$/;"	m	union:__anon9	file:
+wordbeg	sed.c	/^  wordbeg,	\/* Succeeds if at word beginning.  *\/$/;"	e	enum:__anon5	file:
+wordbound	sed.c	/^  wordbound,	\/* Succeeds if at a word boundary.  *\/$/;"	e	enum:__anon5	file:
+wordchar	sed.c	/^  wordchar,	\/* Matches any word-constituent character.  *\/$/;"	e	enum:__anon5	file:
+wordend	sed.c	/^  wordend,	\/* Succeeds if at word end.  *\/$/;"	e	enum:__anon5	file:
+x	sed.c	/^    } x;$/;"	m	struct:sed_cmd	typeref:union:sed_cmd::__anon1	file:
+xmalloc	sed.c	/^xmalloc(size)$/;"	f
