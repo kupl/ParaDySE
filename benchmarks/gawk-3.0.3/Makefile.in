@@ -116,7 +116,6 @@ REL=3.0
 # rules to build gawk
 all:	gawk
 	../../bin/process_cfg
-	python ../../bin/calc_dominator.py
 
 # stuff to make sure that configure has been run.
 $(srcdir)/configure:	configure.in aclocal.m4
@@ -214,7 +213,7 @@ mostlyclean:
 
 clean:
 	rm -rf gawk *.o core y.output
-	rm features dominator* cfg cfg_func_map cfg_branches branches \
+	rm features cfg cfg_func_map cfg_branches branches \
 		funcount idcount stmtcount szd_execution *.cil.c *cil.i
 	cd doc && $(MAKE) clean
 	cd test && $(MAKE) clean

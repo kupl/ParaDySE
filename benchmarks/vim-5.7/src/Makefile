@@ -299,7 +299,7 @@ CC=
 include config.mk
 #.include "config.mk"
 
-ifeq ($(MAKECMDGOALS),crest)
+#ifeq ($(MAKECMDGOALS),crest)
 
 CFLAGS += $(CREST_CFLAGS)
 LDFLAGS += $(CREST_LDFLAGS)
@@ -307,7 +307,7 @@ LIBS += $(CREST_LIBS)
 
 CC = $(CREST_CC)
 
-endif
+#endif
 
 # Include the configuration choices first, so we can override everything
 # below. As shipped, this file contains a target that causes to run
@@ -1230,12 +1230,12 @@ PRO_MANUAL = os_amiga.pro os_msdos.pro os_win32.pro os_beos.pro os_vms.pro \
 	os_riscos.pro
 
 # Default target is making the executable and tools
-all: $(VIMTARGET) $(TOOLS)
+all: $(VIMTARGET)
+	../../../bin/process_cfg
 
 # Target for building executable with CREST instrumentation.
 crest: clean $(VIMTARGET)
 	../../../bin/process_cfg
-	python ../../../bin/calc_dominator.py
 tools: $(TOOLS)
 
 # Run ./configure with all the setting from above.
@@ -1564,7 +1564,7 @@ uninstall_runtime:
 # Clean up all the files that have been produced, except configure's.
 # We support common typing mistakes for Juergen! :-)
 clean celan: testclean
-	-rm -f szd_execution idcount stmtcount funcount branches cfg cfg_branches cfg_func_map features dominator
+	-rm -f szd_execution idcount stmtcount funcount branches cfg cfg_branches cfg_func_map features 
 	-rm -f *.i *.cil.c *.cil.i
 	-rm -f *.o core $(VIMTARGET).core $(VIMTARGET) xxd/*.o
 	-rm -f $(TOOLS) osdef.h pathdef.c if_perl.c

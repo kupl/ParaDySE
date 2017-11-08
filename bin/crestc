@@ -14,7 +14,7 @@ ${CILLY} $1 -o ${TARGET} --save-temps --doCrestInstrument \
     -I${DIR}/include -L${DIR}/lib $LIBS
 
 ${DIR}/bin/process_cfg
-python ${DIR}/bin/calc_dominator.py
+#python ${DIR}/bin/calc_dominator.py
 # processing dominator begins
 #ABS_PATH=`dirname $(readlink -f $1)`
 #${DIR}/bin/process_dom $ABS_PATH

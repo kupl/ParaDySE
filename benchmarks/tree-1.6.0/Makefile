@@ -85,7 +85,6 @@ all:	tree
 tree:	$(OBJS)
 	$(CC) $(LDFLAGS) -o $(TREE_DEST) $(OBJS)
 	../../bin/process_cfg	
-	python ../../bin/calc_dominator.py
 
 $(OBJS): %.o:	%.c tree.h
 	$(CC) $(CFLAGS) -c -o $@ $<
@@ -95,7 +94,7 @@ clean:
 	if [ -f tree.o ]; then rm *.o; fi
 	rm -f *~
 	rm -f covered*
-	rm -f cfg* branches dominator dominator_tree funcount idcount stmtcount features szd_execution input
+	rm -f cfg* branches funcount idcount stmtcount features szd_execution input
 
 install: tree
 	install -d $(BINDIR)
