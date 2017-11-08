@@ -23,7 +23,6 @@ $ make
 ParaDySE is run on an instrumented progam as:
 ```sh
 $ bin/run_crest PROGRAM INTIAL_INPUT LOG NUM_ITERATIONS -STRATEGY
-# (ex) bin/run_crest './gawk aaaaaaaaaa text_inputs/*' gawk.input log 4000 -param gawk.w
 ```
 -	PROGRAM : a subject program under test. 
 -	INITIAL\_INPUT : an initial input. 
@@ -33,10 +32,22 @@ $ bin/run_crest PROGRAM INTIAL_INPUT LOG NUM_ITERATIONS -STRATEGY
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as input 
 which is a 40-dimensional vector of real numbers.
-We also explain how to compile each benchmark and run ParaDySE in each directory.
+
+## Run benchmarks. 
+We explain how to compile each benchmark and run ParaDySE in each directory.
 ```sh
 $ cd ParaDySE/benchmarks
-# read README_ParaDySE in each benchmark directory.
+# read README_ParaDySE in each program directory.
+```
+For instance, we explain how to compile grep-2.2 and run ParaDySE as follows:
+```sh
+$ cd ParaDySE/benchmarks/grep-2.2 # vi REAEME_ParaDySE
+# compile grep 2.2 for use with ParaDySE 
+$ ./configure
+$ cd src
+$ make
+# run ParaDySE
+$ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
 
 ## Run a script.

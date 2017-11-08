@@ -1,6 +1,6 @@
 To compile expat-2.1.0 for use with ParaDySE:
 	(1) cd lib
-	(2) ./CREST_BATCH.sh 
+	(2) ./ParaDySE.sh 
 
 To run ParaDySE:
 	(1) cd lib
