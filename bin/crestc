@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -e
+
+DIR=`dirname $0`/..
+CILLY=${DIR}/cil/bin/cilly
+
+TARGET=`expr $1 : '\(.*\)\.c'`
+
+rm -f idcount stmtcount funcount cfg_func_map cfg branches cfg_branches
+
+LIBS="-lm -lcrest -lstdc++"
+${CILLY} $1 -o ${TARGET} --save-temps --doCrestInstrument \
+    -I${DIR}/include -L${DIR}/lib $LIBS
+
+${DIR}/bin/process_cfg
+python ${DIR}/bin/calc_dominator.py
+# processing dominator begins
+#ABS_PATH=`dirname $(readlink -f $1)`
+#${DIR}/bin/process_dom $ABS_PATH
