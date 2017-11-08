@@ -22,37 +22,33 @@ $ make
 ## Run a benchmark.
 Please read **README\_ParaDySE** file in each benchmark, explaining how to compile 
 each benchmark and run ParaDySE.
- 
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
 $ cd ParaDySE/benchmarks/grep-2.2 
-$ vi REAEME_ParaDySE
-# compile grep 2.2 for use with ParaDySE 
 $ ./configure
 $ cd src
 $ make
-# run ParaDySE
 $ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
 
--	PROGRAM ('./grep aaaaaaaaaa /dev/null') : a subject program under test. 
--	INITIAL\_INPUT (grep.input) : an initial input. 
--	LOG (log) : a file which stores the result of testing.
--	NUM\_ITERATIONS (4000): the number of executions of the program.
--	STRATEGY (param): dfs, cfg, random and so on.
+We explain each argument of last commmand: 
+-	'./grep aaaaaaaaaa /dev/null' : a subject program under test. 
+-	grep.input : an initial input. 
+-	log : a file which stores the result of testing.
+-	4000 : the number of executions of the program.
+-	-param : search heuristic (e.g., -dfs, -cfg, -random) 
 
-In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as input 
+In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
 which is a 40-dimensional vector of real numbers.
 
-## Run a script.
+## Automatically generate a search heuristic.
 The script for automatically generating a search heuristic is run on an instrumented program as:
 ```sh
-$ screen
+$ screen 
 # if you don't install screen, install as follows: sudo apt-get install screen
 $ cd ParaDySE/scripts
 $ python fullauto.py pgm_config/(pgm_name) (the number of samples) (the number of cores)
 # (ex) python fullauto.py pgm_config/gawk.json 1000 20 
 ```
-
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
