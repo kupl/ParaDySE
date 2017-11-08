@@ -20,8 +20,9 @@ $ make
 ```
 
 ## Run a benchmark.
-Please read README\_ParaDySE in each benchmark, explaining how to compile 
-each benchmark and run ParaDySE in each directory.
+Please read **README\_ParaDySE** file in each benchmark, explaining how to compile 
+each benchmark and run ParaDySE.
+ 
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
 $ cd ParaDySE/benchmarks/grep-2.2 
@@ -33,6 +34,7 @@ $ make
 # run ParaDySE
 $ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
+
 -	PROGRAM ('./grep aaaaaaaaaa /dev/null') : a subject program under test. 
 -	INITIAL\_INPUT (grep.input) : an initial input. 
 -	LOG (log) : a file which stores the result of testing.
