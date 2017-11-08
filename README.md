@@ -22,6 +22,7 @@ $ make
 ## Run a benchmark.
 Please read **README\_ParaDySE** file in each benchmark, explaining how to compile 
 each benchmark and run ParaDySE.
+
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
 $ cd ParaDySE/benchmarks/grep-2.2 
@@ -31,12 +32,12 @@ $ make
 $ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
 
-We explain each argument of last commmand: 
--	'./grep aaaaaaaaaa /dev/null' : a subject program under test. 
--	grep.input : an initial input. 
--	log : a file which stores the result of testing.
--	4000 : the number of executions of the program.
--	-param : search heuristic (e.g., -dfs, -cfg, -random) 
+We explain each argument of last command: 
+-	**'./grep aaaaaaaaaa /dev/null'** : a subject program under test. 
+-	**grep.input** : an initial input. 
+-	**log** : a file which stores the result of testing.
+-	**4000** : the number of executions of the program.
+-	**-param** : search heuristic (e.g., -dfs, -cfg, -random) 
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
 which is a 40-dimensional vector of real numbers.
