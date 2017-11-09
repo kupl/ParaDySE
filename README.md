@@ -20,12 +20,13 @@ $ make
 ```
 
 ## Run a benchmark.
-Please read **README\_ParaDySE** file in each benchmark, explaining how to compile 
-each benchmark and run ParaDySE.
+Please read **README\_ParaDySE** file located in each benchmark directory. 
+In **README\_ParaDySE** file, we explain how to compile each benchmark and run ParaDySE.
 
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
 $ cd ParaDySE/benchmarks/grep-2.2 
+# vi README_ParaDySE
 $ ./configure
 $ cd src
 $ make
@@ -41,6 +42,12 @@ We explain each argument of last command:
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
 which is a 40-dimensional vector of real numbers.
+
+If you want to run another benchmark (e.g., sed-1.17), read **README_\ParaDySE** file in the directory:
+```sh
+$ cd ParaDySE/benchmarks/sed-1.17 
+$ vi README_ParaDySE
+```
 
 ## Automatically generate a search heuristic.
 The script for automatically generating a search heuristic is run on an instrumented program as:
