@@ -22,7 +22,6 @@ $ make
 ## Run a benchmark.
 Please read **README\_ParaDySE** file located in each benchmark directory. 
 In **README\_ParaDySE** file, we explain how to compile each benchmark and run ParaDySE.
-
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
 $ cd ParaDySE/benchmarks/grep-2.2 
@@ -50,13 +49,30 @@ $ vi README_ParaDySE
 ```
 
 ## Automatically generate a search heuristic.
-The script for automatically generating a search heuristic is run on an instrumented program as:
+The script for automatically generating a search heuristic is run on an instrumented program. 
+For instance, we can generate a search heuristic for **tree-1.6.0** as follows:
 ```sh
-$ screen 
-# if you don't install screen, install as follows: sudo apt-get install screen
-$ cd ParaDySE/scripts
-$ python fullauto.py pgm_config/(pgm_name) (the number of samples) (the number of cores)
-# (ex) python fullauto.py pgm_config/gawk.json 1000 20 
+$ screen #(recommanded)
+# Initially, each benchmark should be compiled with ParaDySE:
+$ cd ParaDySE/benchmarks/tree-1.6.0
+$ make
+# Run a script
+$ cd ~/ParaDySE/scripts
+$ python fullauto.py pgm_config/tree.json 100 4 
 ```
+
+We explain each argument of last command: 
+-	**pgm_config/tree.json** : json file which describes information of the benchmark. 
+```
+{
+	"pgm_name": "tree-1.6.0",
+	"pgm_dir": "../benchmarks/tree-1.6.0/",
+	"exec_dir": "./",
+	"exec_cmd": "'./tree aaaaaaaaaa aaaaaaaaaa'"
+}
+```
+-	**100** : the number of parameters to evaluate in **Find Phase**
+-	**4** : the number of cpu cores to use in parallel
+
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
