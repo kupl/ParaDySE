@@ -62,7 +62,7 @@ $ python fullauto.py pgm_config/tree.json 100 4
 ```
 
 We explain each argument of last command: 
--	**pgm_config/tree.json** : json file which describes information of the benchmark. 
+-	**pgm_config/tree.json** : a json file to describe the benchmark: 
 ```
 {
 	"pgm_name": "tree-1.6.0",
