@@ -37,10 +37,12 @@ We explain each argument of last command:
 -	**grep.input** : an initial input. 
 -	**log** : a file which stores the result of testing.
 -	**4000** : the number of executions of the program.
--	**-param** : search heuristic (e.g., -dfs, -cfg, -random) 
+-	**-param** : search heuristic (e.g., -dfs, -cfg, -random, -cgs -generational) 
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
-which is a 40-dimensional vector of real numbers.
+which is a 40-dimensional vector of real numbers. 
+
+Note that the implementation of CGS(Context-Guided Search) and Generational search came from the author of [FSE'14 paper][FSE].
 
 If you want to run another benchmark (e.g., sed-1.17), read **README_\ParaDySE** file in the directory:
 ```sh
@@ -76,3 +78,4 @@ We explain each argument of last command:
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
+[FSE]: https://dl.acm.org/citation.cfm?id=2635872&CFID=1004243459&CFTOKEN=16632066

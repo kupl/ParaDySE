@@ -1,3 +1,5 @@
+Note that the expat-2.1.0 benchmark came from the author of FSE'14 paper<a href="https://dl.acm.org/citation.cfm?id=2635872&CFID=1004243459&CFTOKEN=16632066">FSE</a> 
+
 To compile expat-2.1.0 for use with ParaDySE:
 	(1) cd lib
 	(2) ./ParaDySE.sh 
@@ -8,4 +10,5 @@ To run ParaDySE:
 
 To clean
 	(1) cd lib
-	(2) ./clean.sh 
+	(2) ./clean.sh
+	 

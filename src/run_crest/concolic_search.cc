@@ -1746,8 +1746,11 @@ bool CfgHeuristicSearch::DoBoundedBFS(int i, int depth, const SymbolicExecution&
 }
 
 ////////////////////////////////////////////////////////////////////////
-//// ContextGuidedSearch ///////////////////////////////////////////
+//// ContextGuidedSearch(CGS) ///////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
+/* 
+  The implementation of CGS came from the author of FSE'14 paper.
+*/ 
 void CGSSymbolicExecution::InitTried() { 
   tried_.resize(path().constraints_idx().size(), false);
   return;
@@ -1952,6 +1955,12 @@ void ContextGuidedSearch::GetExAtDepth(vector<int>& executions, int depth) {
   }
   return;
 }
+////////////////////////////////////////////////////////////////////////
+//// Generational Search ///////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+/* 
+  The implementation of Generational Search also came from the author of FSE'14 paper.
+*/ 
 
 GenerationalSearch::GenerationalSearch(const string& program,
     const string& input_file, 
