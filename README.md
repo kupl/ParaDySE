@@ -63,15 +63,7 @@ $ python fullauto.py pgm_config/tree.json 100 4
 ```
 
 We explain each argument of last command: 
--	**pgm_config/tree.json** : a json file to describe the benchmark: 
-```
-{
-	"pgm_name": "tree-1.6.0",
-	"pgm_dir": "../benchmarks/tree-1.6.0/",
-	"exec_dir": "./",
-	"exec_cmd": "'./tree aaaaaaaaaa aaaaaaaaaa'"
-}
-```
+-	**pgm_config/tree.json** : a json file to describe the benchmark.
 -	**100** : the number of parameters to evaluate in **Find Phase**
 -	**4** : the number of cpu cores to use in parallel
 
