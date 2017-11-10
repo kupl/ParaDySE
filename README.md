@@ -53,7 +53,7 @@ $ vi README_ParaDySE
 The script for automatically generating a search heuristic is run on an instrumented program. 
 For instance, we can generate a search heuristic for **tree-1.6.0** as follows:
 ```sh
-$ screen #(recommanded)
+$ screen 
 # Initially, each benchmark should be compiled with ParaDySE:
 $ cd ParaDySE/benchmarks/tree-1.6.0
 $ make
@@ -74,6 +74,26 @@ We explain each argument of last command:
 ```
 -	**100** : the number of parameters to evaluate in **Find Phase**
 -	**4** : the number of cpu cores to use in parallel
+
+If the script successfully ends, you can see the following command:
+```sh
+#############################################
+Successfully Generate a Search Heuristic!!!!!
+#############################################
+```
+Then, the automatically generated search heuristic (optimal parameter) 
+is stored in the experiment directory:
+```sh
+$ cd ~/ParaDySE/experiments/1tree-1.6.0__all__logs
+$ vi best.w # (Automatically Generated Search Heuristic)
+```
+If you want to run tree-1.6.0 benchmark with the newly generated heuristic:
+```sh
+$ cd ~/ParaDySE/experiments/1tree-1.6.0__all__logs
+$ cp best.w ~/ParaDySE/benchmarks/tree-1.6.0/best.w 
+$ cd ~/ParaDySE/benchmarks/tree-1.6.0 
+$ ../../bin/run_crest './tree aaaaaaaaaa aaaaaaaaaa' tree.input log 4000 -param best.w
+```
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
