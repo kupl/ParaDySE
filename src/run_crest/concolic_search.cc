@@ -395,15 +395,21 @@ bool Search::UpdateCoverage(const SymbolicExecution& ex,
 	unc_fid_bidsize_.push_back(pair<int, function_id_t>(bid_size, *it));
   }
   sort(unc_fid_bidsize_.begin(), unc_fid_bidsize_.end());
-  
-  size_t top10 = unc_fid_bidsize_.size() /10 ;
-  size_t top20 = unc_fid_bidsize_.size() /5 ;
-  size_t top30 = unc_fid_bidsize_.size() /3 ;
-  auto top_it = unc_fid_bidsize_.end();
-  top10_threshold_ = (top_it-top10)->first;
-  top20_threshold_ = (top_it-top20)->first;
-  top30_threshold_ = (top_it-top30)->first;
-   
+  if(unc_fid_bidsize_.size() > 0){ //Handing Exceptional Case. 
+  	size_t top10 = unc_fid_bidsize_.size() /10 ;
+  	size_t top20 = unc_fid_bidsize_.size() /5 ;
+  	size_t top30 = unc_fid_bidsize_.size() /3 ;
+    auto top_it = unc_fid_bidsize_.end();
+    top10_threshold_ = (top_it-top10)->first;
+    top20_threshold_ = (top_it-top20)->first;
+    top30_threshold_ = (top_it-top30)->first;
+  }
+  else{
+  	top10_threshold_ = 0;
+    top20_threshold_ = 0;
+    top30_threshold_ = 0;
+  }		  
+		   
   fprintf(stderr, "Iteration %d (%lds): covered %u branches [%u reach funs, %u reach branches].\n",
       num_iters_, time(NULL)-start_time_, total_num_covered_, reachable_functions_, reachable_branches_);
 
