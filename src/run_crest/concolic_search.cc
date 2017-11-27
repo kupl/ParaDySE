@@ -660,16 +660,6 @@ void Search::PrintFinalResult()
   fprintf(f, "\n");
 	
 	fclose(f);
-   
-		std::cout << "Bid_history: ";
-   for(map<branch_id_t,size_t>::iterator it =bid_history.begin(); it !=bid_history.end(); ++it)
-     std::cout << "(Bid :" << (*it).first << "->" << (*it).second << ')';
-   std::cout << '\n';       
-  std::cout << "Ex_no_count: ";
-  for(map<int, size_t>::iterator eit =selected_ex_no.begin(); eit !=selected_ex_no.end(); ++eit)
-	  std::cout << "(Ex_no :" << (*eit).first << "->" << (*eit).second << ')';
-  std::cout << '\n'; 	   
-
 
   WriteCoverageFunToFileOrDie("covered_functions");
   WriteCoverageToFileOrDie("covered_branches");
