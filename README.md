@@ -24,7 +24,7 @@ Please read **README\_ParaDySE** file located in each benchmark directory.
 In **README\_ParaDySE** file, we explain how to compile each benchmark and run ParaDySE.
 For instance, we can compile grep-2.2 and run ParaDySE as follows:
 ```sh
-$ cd ParaDySE/benchmarks/grep-2.2 
+$ cd ~/ParaDySE/benchmarks/grep-2.2 
 # vi README_ParaDySE
 $ ./configure
 $ cd src
@@ -37,13 +37,13 @@ We explain each argument of last command:
 -	**grep.input** : an initial input. 
 -	**log** : a file which stores the result of testing.
 -	**4000** : the number of executions of the program.
--	**-param** : search heuristic (e.g., -dfs, -cfg, -random, -cgs -generational) 
+-	**-param** : search heuristic (e.g., -dfs, -cfg, -random, -cgs, -generational) 
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
 which is a 40-dimensional vector of real numbers. 
 **Note that** the implementation of CGS(Context-Guided Search) and Generational search came from **the author** of [FSE'14 paper][FSE]. 
 
-If you want to run another benchmark (e.g., sed-1.17), read **README_\ParaDySE** file in the directory:
+If you want to run another benchmark (e.g., sed-1.17), read **README_ParaDySE** file in the directory:
 ```sh
 $ cd ParaDySE/benchmarks/sed-1.17 
 $ vi README_ParaDySE

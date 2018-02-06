@@ -126,7 +126,7 @@ def run_all(pgm_config, n_iter, n_groups):
 		topw = lines[len(lines)-2].split()
 	
 		cp_topw = " ".join(["cp", str(n-1)+"_weights/" + topw[2], pgm_config['pgm_dir']+pgm_config['exec_dir']+"/best.w"]) 
-		mv_topw = " ".join(["cp", str(n-1)+"_weights/" + topw[2], final_dir]) 
+		mv_topw = " ".join(["cp", str(n-1)+"_weights/" + topw[2], final_dir+"/best.w"]) 
 		os.system(cp_topw)
 		os.system(mv_topw)
 	
@@ -154,7 +154,10 @@ def run_all(pgm_config, n_iter, n_groups):
 		#os.system(mv_100)
 		rm_folder = " ".join(["rm -rf", configs['date']+"*"])
 		os.system(rm_folder)
-				
+
+		print "#############################################"
+		print "Successfully Generate a Search Heuristic!!!!!"
+		print "#############################################"
 	
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
