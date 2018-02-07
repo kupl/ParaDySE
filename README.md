@@ -41,7 +41,7 @@ In particular, our heuristic (param) additionally takes the parameter (e.g., gaw
 which is a 40-dimensional vector of real numbers. 
 Note that the implementation of CGS(Context-Guided Search) and Generational search came from the author of [FSE'14 paper][FSE]. 
 
-If you want to run another benchmark (e.g., sed-1.17), read **README_ParaDySE** file in the directory:
+If you want to run another benchmark (e.g., sed-1.17), read the **README_ParaDySE** file in the directory:
 ```sh
 $ cd ParaDySE/benchmarks/sed-1.17 
 $ vi README_ParaDySE
@@ -83,10 +83,12 @@ $ cp best.w ~/ParaDySE/benchmarks/tree-1.6.0/best.w
 $ cd ~/ParaDySE/benchmarks/tree-1.6.0 
 $ ../../bin/run_crest './tree aaaaaaaaaa aaaaaaaaaa' tree.input log 4000 -param best.w
 ```
-
-When we run ParaDySE in parallel using 20 cores, 
-time for obtaining the search heuristics is as follows: 
-vim(24h), expat(10h), gawk(6h), grep(5h), sed(9h), tree(3h).  
+### Time for obtaining the heuristics.
+To obtain the search heuristics for 6 benchmark programs, 
+we run **ParaDySE** in parallel using 20 cores.
+The generating time is as follows: 
+**vim-5.7**(24h), **expat-2.1.0**(10h), **gawk-3.0.3**(6h), 
+**grep-2.2**(5h), **sed-1.17**(9h), **tree-1.6.0(3h)**.  
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
