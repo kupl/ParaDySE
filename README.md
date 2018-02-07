@@ -1,10 +1,9 @@
 # ParaDySE 
 
-ParaDySE (Parametric Dynamic Symbolic Execution) 
-is a concolic testing tool that automatically generates an optimal 
-search heuristic for a given subject program. 
+ParaDySE (Parametric Dynamic Symbolic Execution) is a tool 
+for automatically generating search heuristics for concolic testing. 
 The tool is implemented on top of [CREST][crest], 
-a publicly available concolic test generation tool for C. 	
+a publicly available concolic testing tool for C.
 
 ## Install ParaDySE. 
 You need to install [Ubuntu 16.04.3(64 bit)][ubuntu].
@@ -31,8 +30,7 @@ $ cd src
 $ make
 $ ../../../bin/run_crest './grep aaaaaaaaaa /dev/null' grep.input log 4000 -param grep.w
 ```
-
-We explain each argument of last command: 
+Each argument of the last command means:
 -	**'./grep aaaaaaaaaa /dev/null'** : a subject program under test. 
 -	**grep.input** : an initial input. 
 -	**log** : a file which stores the result of testing.
@@ -41,7 +39,7 @@ We explain each argument of last command:
 
 In particular, our heuristic (param) additionally takes the parameter (e.g., gawk.w) as argument 
 which is a 40-dimensional vector of real numbers. 
-**Note that** the implementation of CGS(Context-Guided Search) and Generational search came from **the author** of [FSE'14 paper][FSE]. 
+Note that the implementation of CGS(Context-Guided Search) and Generational search came from the author of [FSE'14 paper][FSE]. 
 
 If you want to run another benchmark (e.g., sed-1.17), read **README_ParaDySE** file in the directory:
 ```sh
@@ -62,7 +60,7 @@ $ cd ~/ParaDySE/scripts
 $ python fullauto.py pgm_config/tree.json 100 4 
 ```
 
-We explain each argument of last command: 
+Each argument of the last command means:
 -	**pgm_config/tree.json** : a json file to describe the benchmark.
 -	**100** : the number of parameters to evaluate in **Find Phase**
 -	**4** : the number of cpu cores to use in parallel
@@ -73,19 +71,22 @@ If the script successfully ends, you can see the following command:
 Successfully Generate a Search Heuristic!!!!!
 #############################################
 ```
-Then, the automatically generated search heuristic (optimal parameter) 
-is stored in the experiment directory:
+Then, you can find the generated search heuristic (i.e. parameter values) as follows:
 ```sh
 $ cd ~/ParaDySE/experiments/1tree-1.6.0__all__logs
 $ vi best.w # (Automatically Generated Search Heuristic)
 ```
-If you want to run tree-1.6.0 benchmark with the newly generated heuristic:
+You can run tree-1.6.0 with the generated heuristic as follows: 
 ```sh
 $ cd ~/ParaDySE/experiments/1tree-1.6.0__all__logs
 $ cp best.w ~/ParaDySE/benchmarks/tree-1.6.0/best.w 
 $ cd ~/ParaDySE/benchmarks/tree-1.6.0 
 $ ../../bin/run_crest './tree aaaaaaaaaa aaaaaaaaaa' tree.input log 4000 -param best.w
 ```
+
+When we run ParaDySE in parallel using 20 cores, 
+time for obtaining the search heuristics is as follows: 
+vim(24h), expat(10h), gawk(6h), grep(5h), sed(9h), tree(3h).  
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
