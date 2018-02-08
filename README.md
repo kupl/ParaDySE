@@ -85,7 +85,7 @@ $ ../../bin/run_crest './tree aaaaaaaaaa aaaaaaaaaa' tree.input log 4000 -param 
 ```
 
 we run **ParaDySE** on a linux machine with two Intel Xeon Processor E5-2630 and 192GB RAM. 
-Time for obtaining the search heuristic of **tree-1.6.0** is approximately 3 hours.  
+Time for obtaining the search heuristic for tree-1.6.0 is approximately 3 hours.  
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
