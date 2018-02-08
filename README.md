@@ -1,7 +1,7 @@
 # ParaDySE 
 
 ParaDySE (Parametric Dynamic Symbolic Execution) is a tool 
-for automatically generating search heuristics for concolic testing. 
+that automatically generates search heuristics for concolic testing. 
 The tool is implemented on top of [CREST][crest], 
 a publicly available concolic testing tool for C.
 
@@ -57,13 +57,13 @@ $ cd ParaDySE/benchmarks/tree-1.6.0
 $ make
 # Run a script
 $ cd ~/ParaDySE/scripts
-$ python fullauto.py pgm_config/tree.json 100 4 
+$ python fullauto.py pgm_config/tree.json 1000 20 
 ```
 
 Each argument of the last command means:
 -	**pgm_config/tree.json** : a json file to describe the benchmark.
--	**100** : the number of parameters to evaluate in **Find Phase**
--	**4** : the number of cpu cores to use in parallel
+-	**1000** : the number of parameters to evaluate in **Find Phase**
+-	**20** : the number of cpu cores to use in parallel
 
 If the script successfully ends, you can see the following command:
 ```sh
@@ -83,12 +83,9 @@ $ cp best.w ~/ParaDySE/benchmarks/tree-1.6.0/best.w
 $ cd ~/ParaDySE/benchmarks/tree-1.6.0 
 $ ../../bin/run_crest './tree aaaaaaaaaa aaaaaaaaaa' tree.input log 4000 -param best.w
 ```
-### Time for obtaining the heuristics.
-To obtain the search heuristics for 6 benchmark programs, 
-we run **ParaDySE** in parallel using 20 cores.
-The generating time is as follows: 
-**vim-5.7**(24h), **expat-2.1.0**(10h), **gawk-3.0.3**(6h), 
-**grep-2.2**(5h), **sed-1.17**(9h), **tree-1.6.0(3h)**.  
+
+we run **ParaDySE** on a linux machine with two Intel Xeon Processor E5-2630 and 192GB RAM. 
+Time for obtaining the search heuristic of **tree-1.6.0** is approximately 3 hours.  
 
 [crest]: https://github.com/jburnim/crest
 [ubuntu]: https://www.ubuntu.com/download/desktop
