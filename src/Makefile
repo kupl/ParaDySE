@@ -1,6 +1,6 @@
 YICES_DIR = ../lib/yices-1.0.40
 
-CFLAGS = -I. -I$(YICES_DIR)/include -O2
+CFLAGS = -I. -I$(YICES_DIR)/include -O2 -Wno-narrowing
 CXXFLAGS = $(CFLAGS)
 LDFLAGS = -L$(YICES_DIR)/lib
 LOADLIBES = -lyices
